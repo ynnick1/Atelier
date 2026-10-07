@@ -1,0 +1,1270 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#17181D">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Atelier</title>
+<link rel="icon" sizes="192x192" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+:root{
+  --grond:#17181D; --vlak:#22242C; --vlak2:#2C2F39; --lijn:#3A3E4A; --lijn2:#2F323C;
+  --inkt:#F2EDE4; --stil:#A7A6B0; --stil2:#CFCBD4; --dof:#6E6B76;
+  --amber:#E8A55B; --amber-inkt:#1B1408; --bakrand:#4A4436; --warm:#E8C79E;
+  --titel:'Sora', system-ui, sans-serif; --tekst:'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--grond);color:var(--inkt);font-family:var(--tekst);-webkit-tap-highlight-color:transparent}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+#app{max-width:480px;margin:0 auto;padding:16px 16px calc(110px + env(safe-area-inset-bottom));min-height:100vh;display:flex;flex-direction:column;gap:14px}
+h1{font-family:var(--titel);font-weight:700;font-size:30px;letter-spacing:-.5px;margin:0;line-height:1.15}
+h2{font-family:var(--titel);font-weight:600;font-size:18px;margin:0}
+.kop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.rij{display:flex;gap:8px;align-items:center}
+.stil{color:var(--stil)} .klein{font-size:13px} .fijn{font-size:14px}
+.verborgen{display:none!important}
+.kaart{background:var(--vlak);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:10px}
+a.kaart{text-decoration:none}
+.kaart.bak{border:1.5px solid var(--bakrand)}
+.label{font-size:12px;font-weight:700;letter-spacing:.4px;color:var(--stil);text-transform:uppercase}
+.label.warm{color:var(--warm)}
+.knop{min-height:48px;border-radius:14px;border:0;background:var(--inkt);color:var(--grond);font-weight:700;font-size:15px;padding:0 16px;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;text-align:center;white-space:nowrap}
+.knop svg{flex-shrink:0}
+.knop.amber{background:var(--amber);color:var(--amber-inkt)}
+.knop.rand{background:none;color:var(--inkt);border:1.5px solid var(--lijn);font-weight:400}
+.knop.lijn2{background:none;color:var(--inkt);border:2px solid var(--inkt)}
+.knop.groot{min-height:58px;font-size:17px;border-radius:16px}
+.knop.mini{min-height:40px;font-size:14px;padding:0 12px;border-radius:12px}
+.knop.vol{width:100%}
+.knop:disabled{opacity:.45}
+.tekstknop{background:none;border:0;color:var(--stil2);text-decoration:underline;min-height:44px;padding:0 4px;font-size:14px}
+.drie{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.twee{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:40px;padding:0 14px;border-radius:999px;background:var(--vlak2);border:1.5px solid transparent;display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--inkt);text-decoration:none}
+.chip[aria-pressed="true"]{background:var(--inkt);color:var(--grond);font-weight:700}
+.chip.streep{background:none;border:1.5px dashed var(--dof)}
+.chip .x{margin-left:2px;color:var(--stil);font-weight:700}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:4px;background:var(--vlak);border-radius:14px;padding:4px}
+.seg button{min-height:42px;border:0;border-radius:10px;background:none;color:var(--stil2);font-size:15px}
+.seg button[aria-pressed="true"]{background:var(--vlak2);color:var(--inkt);font-weight:700}
+.terugl{align-self:flex-start;display:inline-flex;align-items:center;gap:4px;min-height:44px;color:var(--stil);text-decoration:none;font-size:15px;background:none;border:0;padding:0}
+.icoonknop{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;color:var(--stil);background:none;border:0;text-decoration:none;flex-shrink:0}
+.stip{width:10px;height:10px;border-radius:999px;flex-shrink:0;display:inline-block}
+.veld{width:100%;padding:12px;border:0;border-radius:12px;background:var(--vlak);color:var(--inkt);font-size:16px}
+.kaart .veld{background:var(--vlak2)}
+textarea.veld{resize:vertical;line-height:1.4}
+select.veld{appearance:auto}
+input[type=checkbox]{width:22px;height:22px;margin:0;accent-color:var(--amber);flex-shrink:0}
+.lijst{display:flex;flex-direction:column}
+.lijst .r{display:flex;align-items:center;gap:10px;min-height:52px;border-top:1px solid var(--lijn2);text-decoration:none;color:inherit;background:none;border-left:0;border-right:0;border-bottom:0;padding:6px 0;text-align:left;width:100%}
+.lijst .r:first-child{border-top:0}
+.r .wat{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}
+.r .wat b{font-size:16px;overflow-wrap:anywhere}
+.r .wat span{font-size:13px;color:var(--stil)}
+.speel{width:44px;height:44px;flex-shrink:0;border-radius:999px;border:0;background:var(--vlak2);color:var(--inkt);display:inline-flex;align-items:center;justify-content:center}
+.speel.licht{background:var(--inkt);color:var(--grond);width:48px;height:48px}
+.duim{width:44px;height:44px;border-radius:10px;object-fit:cover;flex-shrink:0;background:var(--vlak2)}
+.letter{width:44px;height:44px;border-radius:999px;background:var(--vlak2);display:inline-flex;align-items:center;justify-content:center;font-family:var(--titel);font-weight:700;color:var(--stil2);flex-shrink:0}
+.pil{display:inline-flex;align-items:center;min-height:26px;padding:0 10px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.onder{position:fixed;left:0;right:0;bottom:0;padding:16px 16px calc(14px + env(safe-area-inset-bottom));background:linear-gradient(rgba(23,24,29,0),var(--grond) 28%);z-index:5}
+.onder .binnen{max-width:448px;margin:0 auto;display:flex;gap:10px}
+.onder .binnen > *{flex:1}
+.tegels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.tegel{background:var(--vlak);border:2px solid transparent;border-radius:16px;padding:12px 14px;min-height:72px;text-align:left;display:flex;flex-direction:column;gap:4px;color:var(--inkt)}
+.tegel b{font-size:16px}
+.tegel span{font-size:13px;color:var(--stil);overflow-wrap:anywhere}
+.tegel[aria-pressed="true"]{border-color:var(--amber);background:#2A2620}
+.groot-getal{font-family:var(--titel);font-weight:700;font-size:40px;line-height:1}
+.opname{display:flex;flex-direction:column;align-items:center;gap:10px;padding:18px 12px;background:var(--vlak);border-radius:18px;text-align:center}
+.opname .rond{width:96px;height:96px;border-radius:999px;border:0;background:var(--amber);color:var(--amber-inkt);display:inline-flex;align-items:center;justify-content:center}
+.opname .rond.neemt{background:#2A2620;color:var(--amber);border:3px solid var(--amber);animation:puls 1.6s ease-in-out infinite}
+.opname .tijd{font-family:var(--titel);font-weight:700;font-size:28px}
+.opname.klein{flex-direction:row;padding:10px 12px;gap:12px;text-align:left}
+.opname.klein .rond{width:52px;height:52px}
+@keyframes puls{0%,100%{box-shadow:0 0 0 0 rgba(232,165,91,.45)}50%{box-shadow:0 0 0 12px rgba(232,165,91,0)}}
+@media (prefers-reduced-motion:reduce){.opname .rond.neemt{animation:none}}
+.stap{border-radius:16px;padding:12px 14px;display:flex;gap:12px;align-items:flex-start;background:var(--vlak)}
+.stap.later{background:none;border:1.5px solid var(--lijn2)}
+.stap.af{opacity:.55}
+.stap.nu{border:2px solid var(--amber);background:#2A2620;flex-direction:column;gap:8px}
+.balk{height:6px;border-radius:999px;background:var(--vlak2);overflow:hidden}
+.balk i{display:block;height:100%;background:var(--amber);border-radius:999px}
+.foto-groot{width:100%;max-height:360px;object-fit:contain;border-radius:14px;background:var(--vlak)}
+.citaat{font-size:14px;color:var(--stil2);font-style:italic;line-height:1.45}
+.melding{font-size:14px;color:var(--warm)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(92px + env(safe-area-inset-bottom));width:calc(100% - 32px);max-width:448px;background:var(--inkt);color:var(--grond);border-radius:14px;padding:10px 12px 10px 16px;display:flex;gap:10px;align-items:center;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.toast span{flex:1;font-size:15px}
+.toast button{min-height:40px;border:0;background:none;color:#7A4A12;font-weight:700;text-decoration:underline;padding:0 6px}
+.groepkop{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:44px;background:none;border:0;padding:0;width:100%;text-align:left;color:var(--inkt)}
+.groepkop b{font-family:var(--titel);font-weight:600;font-size:16px}
+.mijlpaal{display:grid;grid-template-columns:1fr auto;gap:8px;padding:10px 0;border-top:1px solid var(--lijn2)}
+.mijlpaal:first-of-type{border-top:0}
+.mijlpaal .velden{grid-column:1 / -1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.leeg{color:var(--stil);font-size:15px;line-height:1.5}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="toast" class="toast verborgen" role="status" aria-live="polite"><span id="toast-tekst"></span><button id="toast-knop" type="button">Ongedaan</button></div>
+<input type="file" id="bestand" accept="application/json,.json" class="verborgen">
+<input type="file" id="foto-in" accept="image/*" capture="environment" class="verborgen">
+<script>
+'use strict';
+/* Atelier v1 · alles staat lokaal op dit toestel (localStorage + IndexedDB) */
+const OPSLAG = 'atelier_v1';
+const DAG = 864e5;
+const SOORT = {
+  muziek:{ naam:'Muziek', kleur:'#7FB8E0' }, comedy:{ naam:'Comedy', kleur:'#E58A6E' },
+  schrijven:{ naam:'Schrijven', kleur:'#B9A6E8' }, overig:{ naam:'Overig', kleur:'#A7A6B0' }
+};
+const IDEESOORT = { riff:{ naam:'Riff', soort:'muziek' }, grap:{ naam:'Grap', soort:'comedy' }, tekst:{ naam:'Tekst', soort:'schrijven' }, idee:{ naam:'Idee', soort:'overig' } };
+const SOORT_NAAR_IDEE = { muziek:'riff', comedy:'grap', schrijven:'tekst', overig:'idee' };
+const SJABLONEN = {
+  band:{ naam:'Optreden met een band', statussen:['nieuw','ken ik','zit erin'], onderdeel:'nummer', meer:'nummers', groep:'Blok', soort:'muziek', duur:false },
+  muziek:{ naam:'Eigen muziek', statussen:['idee','demo','arrangement','opgenomen','af'], onderdeel:'nummer', meer:'nummers', groep:'Groep', soort:'muziek', duur:false },
+  comedy:{ naam:'Comedyset', statussen:['idee','geschreven','getest','werkt'], onderdeel:'bit', meer:'bits', groep:'Deel', soort:'comedy', duur:true },
+  schrijven:{ naam:'Schrijfproject', statussen:['idee','klad','herschreven','af'], onderdeel:'stuk', meer:'stukken', groep:'Deel', soort:'schrijven', duur:false },
+  leeg:{ naam:'Leeg', statussen:['open','bezig','klaar'], onderdeel:'onderdeel', meer:'onderdelen', groep:'Groep', soort:null, duur:false }
+};
+const LADDER = {
+  comedy:['Hardop voor jezelf','Opnemen en terugluisteren','Aan één vriend','Open mic'],
+  standaard:['Voor jezelf, hardop of gespeeld','Opnemen en terugluisteren','Laten horen aan één persoon','Voor een klein publiek','Op een podium']
+};
+const VERDELING = { 15:[3,8,4], 30:[5,15,10], 45:[5,25,15] };
+
+function nu(){ return Date.now(); }
+function nieuwId(){ return Math.random().toString(36).slice(2,9) + nu().toString(36).slice(-3); }
+function pad(n){ return String(n).padStart(2,'0'); }
+function dagSleutel(ts){ const d = new Date(ts ?? nu()); return d.getFullYear() + '-' + pad(d.getMonth()+1) + '-' + pad(d.getDate()); }
+function vanSleutel(s){ const [y,m,d] = String(s).split('-').map(Number); return new Date(y, (m||1)-1, d||1); }
+function plusDagen(s, n){ const d = vanSleutel(s); d.setDate(d.getDate() + n); return dagSleutel(d.getTime()); }
+const DAGEN = ['zo','ma','di','wo','do','vr','za'];
+const MAANDEN = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const MAANDEN_LANG = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+function datumKort(s){ const d = vanSleutel(s); return DAGEN[d.getDay()] + ' ' + d.getDate() + ' ' + MAANDEN[d.getMonth()]; }
+function datumLang(s){ const d = vanSleutel(s); return DAGEN[d.getDay()] + ' ' + d.getDate() + ' ' + MAANDEN_LANG[d.getMonth()]; }
+function dagenTot(s){ return Math.round((vanSleutel(s) - vanSleutel(dagSleutel())) / DAG); }
+function dagenGeleden(ts){ return Math.round((vanSleutel(dagSleutel()) - vanSleutel(dagSleutel(ts))) / DAG); }
+function rel(ts){
+  const d = dagenGeleden(ts);
+  if (d <= 0) return 'vandaag'; if (d === 1) return 'gisteren'; if (d < 7) return d + ' dagen';
+  if (d < 30) { const w = Math.round(d/7); return w === 1 ? '1 week' : w + ' weken'; }
+  if (d < 365) { const m = Math.round(d/30); return m === 1 ? '1 maand' : m + ' maanden'; }
+  const j = Math.round(d/365); return j === 1 ? '1 jaar' : j + ' jaar';
+}
+function relZin(ts){ const r = rel(ts); return (r === 'vandaag' || r === 'gisteren') ? r : r + ' geleden'; }
+function sec(s){ s = Math.max(0, Math.round(s || 0)); return Math.floor(s/60) + ':' + pad(s % 60); }
+function uur(ts){ const d = new Date(ts); return d.getHours() + 'u' + pad(d.getMinutes()); }
+function esc(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function klein1(s){ s = String(s || ''); return s.charAt(0).toLowerCase() + s.slice(1); }
+function groot1(s){ s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); }
+const $ = s => document.querySelector(s);
+
+/* ---------- toestand ---------- */
+function startToestand(){
+  return {
+    versie:1, ideeen:[], projecten:[],
+    disciplines:[
+      { id:'bas', naam:'Bas', soort:'muziek' }, { id:'gitaar', naam:'Gitaar', soort:'muziek' }, { id:'zang', naam:'Zang', soort:'muziek' },
+      { id:'comedy', naam:'Comedy', soort:'comedy' }, { id:'schrijven', naam:'Schrijven', soort:'schrijven' }
+    ],
+    uitDeBak:'dag', bakVandaag:null, schermAan:true, sessie:null, sessies:[],
+    laatsteMin:30, laatsteDisc:null, laatsteBackup:null, laatsteMediaBackup:null, sinds:nu()
+  };
+}
+let S;
+function laad(){
+  try { const r = localStorage.getItem(OPSLAG); if (r) { S = Object.assign(startToestand(), JSON.parse(r)); return; } } catch(e) {}
+  S = startToestand(); bewaar();
+}
+function bewaar(){ try { localStorage.setItem(OPSLAG, JSON.stringify(S)); } catch(e) { toast('Opslaan lukt niet: is je telefoon vol?'); } }
+
+function vindIdee(id){ return S.ideeen.find(i => i.id === id); }
+function vindProject(id){ return S.projecten.find(p => p.id === id); }
+function vindDeel(p, id){ return p ? p.onderdelen.find(o => o.id === id) : null; }
+function vindDisc(id){ return S.disciplines.find(d => d.id === id); }
+function discNaam(id){ if (id === 'vrij') return 'Zonder doel'; const d = vindDisc(id); return d ? d.naam : 'Zonder discipline'; }
+function discSoort(id){ const d = vindDisc(id); return d ? d.soort : 'overig'; }
+function projectSoort(p){ return p.disc && vindDisc(p.disc) ? discSoort(p.disc) : (SJABLONEN[p.sjabloon]?.soort || 'overig'); }
+function kleur(soort){ return (SOORT[soort] || SOORT.overig).kleur; }
+function ideeSoort(i){ if (i.soort && IDEESOORT[i.soort]) return IDEESOORT[i.soort].soort; const p = i.pid && vindProject(i.pid); return p ? projectSoort(p) : 'overig'; }
+function ideeTitel(i){
+  if (i.tekst && i.tekst.trim()) return i.tekst.trim();
+  const wanneer = datumKort(dagSleutel(i.gemaakt)) + ', ' + uur(i.gemaakt);
+  return (i.mediaSoort === 'foto' ? 'Foto van ' : i.mediaSoort === 'audio' ? 'Opname van ' : 'Idee van ') + wanneer;
+}
+function actieveProjecten(){ return S.projecten.filter(p => p.status === 'actief'); }
+function inBak(){ return S.ideeen.filter(i => i.status === 'bak'); }
+function topStatus(p){ return p.statussen.length - 1; }
+function sjab(p){ return SJABLONEN[p.sjabloon] || SJABLONEN.leeg; }
+
+/* ---------- mijlpalen ---------- */
+function scopeVan(p, m){ return p.onderdelen.filter(o => !m.groep || o.groep === m.groep); }
+function scopeNaam(p, m){ if (!m.groep) return 'alles'; const g = p.groepen.find(x => x.id === m.groep); return g ? klein1(g.naam) : 'alles'; }
+function nogTe(p, m){ if (m.min == null) return 0; return scopeVan(p, m).filter(o => o.status < m.min).length; }
+function mijlpaalWat(p, m){
+  if (m.min == null) return m.wat || 'Mijlpaal';
+  const basis = scopeNaam(p, m) + ' minstens ' + (p.statussen[m.min] ?? '?');
+  return m.wat ? m.wat + ' (' + basis + ')' : basis;
+}
+function volgendeMijlpaal(p){
+  return p.mijlpalen.filter(m => m.min != null && nogTe(p, m) > 0).sort((a,b) => a.datum < b.datum ? -1 : 1)[0] || null;
+}
+function gebeurtenissen(p){ const v = dagSleutel(); return p.mijlpalen.filter(m => m.min == null && m.datum >= v).sort((a,b) => a.datum < b.datum ? -1 : 1); }
+function aftellen(p){
+  const v = dagSleutel(); const toek = p.mijlpalen.filter(m => m.datum >= v).sort((a,b) => a.datum < b.datum ? -1 : 1);
+  if (!toek.length) return null;
+  const d = dagenTot(toek[toek.length-1].datum);
+  if (d < 14) return { getal:d, eenheid: d === 1 ? 'dag' : 'dagen' };
+  const w = Math.round(d/7); return { getal:w, eenheid: w === 1 ? 'week' : 'weken' };
+}
+function mijlpaalRegel(p){
+  const m = volgendeMijlpaal(p);
+  if (!m) return null;
+  const voorbij = m.datum < dagSleutel();
+  return { m, voorbij, tekst: datumKort(m.datum) + ': ' + mijlpaalWat(p, m) + ' · nog ' + nogTe(p, m) };
+}
+
+/* ---------- media in IndexedDB ---------- */
+const MEDIA = (() => {
+  let dbp = null;
+  function open(){
+    if (!dbp) dbp = new Promise((ok, nok) => {
+      try {
+        const r = indexedDB.open('atelier_media', 1);
+        r.onupgradeneeded = () => r.result.createObjectStore('media', { keyPath:'id' });
+        r.onsuccess = () => ok(r.result); r.onerror = () => nok(r.error);
+      } catch(e) { nok(e); }
+    });
+    return dbp;
+  }
+  function tx(mode, f){
+    return open().then(db => new Promise((ok, nok) => {
+      const t = db.transaction('media', mode); const req = f(t.objectStore('media'));
+      t.oncomplete = () => ok(req ? req.result : undefined); t.onerror = () => nok(t.error); t.onabort = () => nok(t.error);
+    }));
+  }
+  return {
+    put: rec => tx('readwrite', st => st.put(rec)),
+    get: id => tx('readonly', st => st.get(id)),
+    alle: () => tx('readonly', st => st.getAll()),
+    weg: id => tx('readwrite', st => st.delete(id))
+  };
+})();
+const urlCache = {};
+async function mediaUrl(id){
+  if (!id) return null; if (urlCache[id]) return urlCache[id];
+  try { const r = await MEDIA.get(id); if (!r) return null; return urlCache[id] = URL.createObjectURL(r.blob); } catch(e) { return null; }
+}
+async function vulFotos(){
+  for (const img of document.querySelectorAll('img[data-foto]')) {
+    const u = await mediaUrl(img.dataset.foto); if (u) img.src = u; else img.alt = 'foto niet gevonden';
+  }
+}
+
+/* ---------- afspelen ---------- */
+const ICOON = {
+  play:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>',
+  pauze:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>',
+  stop:'<svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>',
+  mic:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
+  micGroot:'<svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
+  noot:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>',
+  terug:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>',
+  verder:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>',
+  instel:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>',
+  link:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"/><path d="M10 14L21 3"/><path d="M21 14v7H3V3h7"/></svg>',
+  foto:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3v13H4z"/><circle cx="12" cy="13" r="4"/></svg>',
+  vink:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>'
+};
+const speler = new Audio();
+let speeltId = null;
+speler.onended = () => { speeltId = null; zetSpeelKnoppen(); };
+function speelKnop(id, licht){ const aan = speeltId === id; return `<button type="button" class="speel${licht ? ' licht' : ''}" data-doe="speel" data-id="${esc(id)}" aria-label="${aan ? 'Pauze' : 'Afspelen'}">${aan ? ICOON.pauze : ICOON.play}</button>`; }
+function zetSpeelKnoppen(){
+  document.querySelectorAll('[data-doe="speel"]').forEach(b => { const aan = b.dataset.id === speeltId; b.innerHTML = aan ? ICOON.pauze : ICOON.play; b.setAttribute('aria-label', aan ? 'Pauze' : 'Afspelen'); });
+}
+async function speel(id){
+  if (speeltId === id) { speler.pause(); speeltId = null; zetSpeelKnoppen(); return; }
+  let u;
+  if (id === '__rec') { if (!rec.blob) return; u = URL.createObjectURL(rec.blob); }
+  else u = await mediaUrl(id);
+  if (!u) { toast('Deze opname staat niet op deze telefoon. Zet de back-up van je opnames terug.'); return; }
+  speler.pause(); speler.src = u;
+  try { await speler.play(); speeltId = id; } catch(e) { speeltId = null; toast('Afspelen lukt niet.'); }
+  zetSpeelKnoppen();
+}
+function stopSpelen(){ if (speeltId) { speler.pause(); speeltId = null; } }
+
+/* ---------- opnemen ---------- */
+const rec = { staat:'uit', ctx:null, mr:null, stream:null, stukjes:[], start:0, blob:null, duur:0, fout:'', naStop:null };
+function kanOpnemen(){ return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder); }
+function resetOpname(){
+  if (rec.mr && rec.staat === 'neemt') { rec.naStop = null; try { rec.mr.stop(); } catch(e) {} }
+  if (rec.stream) rec.stream.getTracks().forEach(t => t.stop());
+  if (speeltId === '__rec') stopSpelen();
+  Object.assign(rec, { staat:'uit', ctx:null, mr:null, stream:null, stukjes:[], start:0, blob:null, duur:0, fout:'', naStop:null });
+}
+async function startOpname(ctx){
+  resetOpname(); rec.ctx = ctx;
+  if (!kanOpnemen()) { rec.fout = 'Opnemen lukt niet in deze browser.'; tekenOpname(); return; }
+  rec.staat = 'vraagt'; tekenOpname();
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio:true });
+    if (rec.ctx !== ctx || rec.staat !== 'vraagt') { stream.getTracks().forEach(t => t.stop()); return; }
+    const soort = ['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(t => MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t));
+    const mr = new MediaRecorder(stream, soort ? { mimeType:soort } : undefined);
+    rec.mr = mr; rec.stream = stream; rec.stukjes = [];
+    mr.ondataavailable = e => { if (e.data && e.data.size) rec.stukjes.push(e.data); };
+    mr.onstop = () => {
+      rec.blob = new Blob(rec.stukjes, { type: mr.mimeType || 'audio/webm' });
+      rec.duur = Math.max(1, Math.round((nu() - rec.start) / 1000));
+      stream.getTracks().forEach(t => t.stop()); rec.stream = null;
+      rec.staat = 'klaar';
+      const f = rec.naStop; rec.naStop = null;
+      if (f) f(); else tekenOpname();
+    };
+    mr.start(); rec.start = nu(); rec.staat = 'neemt';
+  } catch(e) {
+    rec.staat = 'uit';
+    rec.fout = e && e.name === 'NotAllowedError' ? 'Geen toegang tot de microfoon. Geef Chrome toestemming en probeer opnieuw.' : 'Opnemen lukt nu niet.';
+  }
+  tekenOpname();
+}
+function stopOpname(){ if (rec.mr && rec.staat === 'neemt') { try { rec.mr.stop(); } catch(e) { rec.staat = 'uit'; } } }
+function opnameInhoud(ctx){
+  const hier = rec.ctx === ctx;
+  const fout = hier && rec.fout ? `<div class="melding">${esc(rec.fout)}</div>` : '';
+  if (ctx === 'vang') {
+    if (hier && rec.staat === 'neemt') return `<button type="button" class="rond neemt" data-doe="stopop" aria-label="Stop de opname">${ICOON.stop}</button><div class="tijd" id="opname-tijd">${sec((nu()-rec.start)/1000)}</div><div class="stil fijn">Neurie, speel of praat. Tik om te stoppen.</div>`;
+    if (hier && rec.staat === 'vraagt') return `<button type="button" class="rond neemt" aria-label="Microfoon starten">${ICOON.micGroot}</button><div class="stil fijn">Microfoon starten…</div>`;
+    if (hier && rec.staat === 'klaar' && rec.blob) return `<div class="rij">${speelKnop('__rec', true)}<div class="tijd">${sec(rec.duur)}</div></div><div class="stil fijn">Opname klaar. Geef ze een naam als je wil.</div><button type="button" class="tekstknop" data-doe="neemop" data-ctx="vang">Opnieuw opnemen</button>`;
+    return `<button type="button" class="rond" data-doe="neemop" data-ctx="vang" aria-label="Neem op">${ICOON.micGroot}</button><div class="stil fijn">Tik om op te nemen.</div>${fout}`;
+  }
+  // kleine variant: sessie en afronden
+  const uitleg = ctx === 'sessie' ? 'Iets ontdekt? Neem het op.' : 'Of spreek je terugblik in.';
+  if (hier && rec.staat === 'neemt') return `<button type="button" class="rond neemt" data-doe="stopop" aria-label="Stop de opname">${ICOON.stop}</button><div><div class="tijd" id="opname-tijd" style="font-size:22px">${sec((nu()-rec.start)/1000)}</div><div class="stil klein">Tik om te stoppen.</div></div>`;
+  if (hier && rec.staat === 'klaar' && rec.blob) return `${speelKnop('__rec', true)}<div style="flex:1"><b>Terugblik ingesproken, ${sec(rec.duur)}</b><br><button type="button" class="tekstknop" style="padding:0" data-doe="neemop" data-ctx="${ctx}">Opnieuw</button></div>`;
+  return `<button type="button" class="rond" data-doe="neemop" data-ctx="${ctx}" aria-label="${esc(uitleg)}">${ICOON.mic}</button><div style="flex:1"><b>${esc(uitleg)}</b>${fout}</div>`;
+}
+function tekenOpname(){ const v = $('#opname-vak'); if (v) v.innerHTML = opnameInhoud(v.dataset.ctx); }
+
+/* ---------- navigatie ---------- */
+let stapel = [], vorigeRoute = null;
+function route(){ return (location.hash || '#start').slice(1).split('/').map(decodeURIComponent); }
+function ga(h){ if (location.hash === h) { teken(); return; } location.hash = h; }
+function terug(){ if (stapel.length > 1) history.back(); else vervang('#start'); }
+let vervangBezig = false;
+function vervang(h){ if (location.hash === h) { teken(); return; } vervangBezig = true; location.replace(h); }
+window.addEventListener('hashchange', () => {
+  const h = location.hash || '#start';
+  if (vervangBezig) { stapel[stapel.length - 1] = h; vervangBezig = false; }
+  else if (stapel.length > 1 && stapel[stapel.length - 2] === h) stapel.pop(); else stapel.push(h);
+  verlaat(vorigeRoute, route()[0]);
+  teken();
+});
+function verlaat(van, naar){
+  if (!van || van === naar) return;
+  if (van === 'vang' && vc) {
+    if (rec.ctx === 'vang' && rec.staat === 'neemt') { rec.naStop = () => bewaarVangst(true); stopOpname(); }
+    else bewaarVangst(true);
+  }
+  if ((van === 'afronden' || van === 'sessie') && rec.ctx === van) {
+    if (van === 'sessie' && rec.staat === 'neemt') { rec.naStop = () => bewaarSessieOpname(); stopOpname(); }
+    else if (van === 'afronden') resetOpname();
+  }
+  if (van === 'vang' || van === 'idee' || van === 'na') stopLuisteren();
+}
+
+/* ---------- melding met ongedaan maken ---------- */
+let toastTimer = null, herstel = null;
+function toast(tekst, terugzet){
+  herstel = terugzet || null;
+  $('#toast-tekst').textContent = tekst;
+  $('#toast-knop').classList.toggle('verborgen', !terugzet);
+  $('#toast').classList.remove('verborgen');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { $('#toast').classList.add('verborgen'); herstel = null; }, 5000);
+}
+$('#toast-knop').addEventListener('click', () => { if (herstel) { herstel(); herstel = null; bewaar(); teken(); } $('#toast').classList.add('verborgen'); });
+function momentopname(){ const k = JSON.stringify({ i:S.ideeen, p:S.projecten }); return () => { const o = JSON.parse(k); S.ideeen = o.i; S.projecten = o.p; }; }
+
+/* ---------- inspreken als tekst ---------- */
+let herkenner = null, luistert = false;
+function kanSpraak(){ return 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window; }
+function startLuisteren(veldId, opslaan){
+  const veld = $('#' + veldId); if (!veld) return;
+  if (!kanSpraak()) { veld.focus(); return; }
+  try {
+    const R = window.SpeechRecognition || window.webkitSpeechRecognition;
+    herkenner = new R(); herkenner.lang = 'nl-BE'; herkenner.interimResults = true; herkenner.continuous = false;
+    const basis = veld.value.trim();
+    herkenner.onresult = e => {
+      let t = ''; for (let i = 0; i < e.results.length; i++) t += e.results[i][0].transcript;
+      const v = $('#' + veldId); if (!v) return;
+      v.value = (basis ? basis + ' ' : '') + t.trim(); opslaan(v.value);
+    };
+    herkenner.onerror = e => { toast(e.error === 'not-allowed' ? 'Geen toegang tot de microfoon.' : e.error === 'no-speech' ? 'Ik hoorde niets. Tik nog eens.' : 'Inspreken lukt nu niet. Gebruik de microfoon van je toetsenbord.'); };
+    herkenner.onend = () => { luistert = false; const k = $('[data-doe="dicteer"]'); if (k) k.textContent = 'Inspreken als tekst'; };
+    herkenner.start(); luistert = true;
+    const k = $('[data-doe="dicteer"]'); if (k) k.textContent = 'Ik luister…';
+  } catch(e) { luistert = false; toast('Inspreken lukt nu niet. Gebruik de microfoon van je toetsenbord.'); }
+}
+function stopLuisteren(){ if (herkenner && luistert) { try { herkenner.stop(); } catch(e) {} } luistert = false; }
+
+/* ---------- scherm aan houden ---------- */
+let wakeLock = null;
+async function houdAan(){
+  if (!S.schermAan || !S.sessie || S.sessie.klaar || document.hidden) return;
+  try { if (navigator.wakeLock && !wakeLock) { wakeLock = await navigator.wakeLock.request('screen'); wakeLock.addEventListener('release', () => { wakeLock = null; }); } } catch(e) { wakeLock = null; }
+}
+function laatLos(){ if (wakeLock) { try { wakeLock.release(); } catch(e) {} wakeLock = null; } }
+
+/* ---------- uit de bak ---------- */
+let bakDezeKeer = null, bakRust = false;
+function bakKandidaat(){
+  const t = nu();
+  return S.ideeen.filter(i => i.status === 'bak' && t - i.gemaakt > 3 * DAG && !(i.terugOp > t))
+    .sort((a,b) => (a.gezien || a.gemaakt) - (b.gezien || b.gemaakt))[0] || null;
+}
+function geldigVoorBak(i){ return i && i.status === 'bak' && !(i.terugOp > nu()); }
+function uitDeBak(){
+  if (S.uitDeBak === 'uit') return null;
+  if (S.uitDeBak === 'dag') {
+    const d = dagSleutel();
+    if (S.bakVandaag && S.bakVandaag.dag === d) { if (S.bakVandaag.klaar) return null; const i = vindIdee(S.bakVandaag.id); return geldigVoorBak(i) ? i : null; }
+    const k = bakKandidaat(); if (!k) return null;
+    S.bakVandaag = { dag:d, id:k.id, klaar:false }; k.gezien = nu(); bewaar(); return k;
+  }
+  if (bakDezeKeer === null) { const k = bakKandidaat(); bakDezeKeer = k ? k.id : '-'; if (k) { k.gezien = nu(); bewaar(); } }
+  const i = vindIdee(bakDezeKeer); return geldigVoorBak(i) ? i : null;
+}
+function bakAfgehandeld(){ if (S.uitDeBak === 'dag' && S.bakVandaag) S.bakVandaag.klaar = true; bakDezeKeer = '-'; bakRust = false; }
+function rustTekst(i){ if (!(i.terugOp > nu())) return ''; const d = Math.max(1, Math.round((i.terugOp - nu()) / DAG)); return d <= 8 ? 'komt over een week terug' : d <= 35 ? 'komt over een maand terug' : 'komt over ' + Math.round(d/30) + ' maanden terug'; }
+
+/* ---------- wat oefen ik? ---------- */
+function laatsteUitkomst(o){ const s = (o.sessies || []).filter(x => x.uitkomst !== 'niet'); return s.length ? s[s.length-1] : null; }
+function kandidaten(disc, pid){
+  if (!disc || disc === 'vrij') return [];
+  const projs = actieveProjecten().filter(p => pid ? p.id === pid : p.disc === disc);
+  const lijst = [];
+  projs.forEach(p => {
+    const vm = volgendeMijlpaal(p);
+    const inVm = new Set(vm ? scopeVan(p, vm).filter(o => o.status < vm.min).map(o => o.id) : []);
+    p.onderdelen.forEach((o, n) => {
+      if (o.status >= topStatus(p)) return;
+      const lu = laatsteUitkomst(o);
+      const prio = lu && lu.uitkomst === 'stroef' ? 0 : inVm.has(o.id) ? 1 : 2;
+      lijst.push({ pid:p.id, oid:o.id, prio, status:o.status, laatst: lu ? lu.ts : 0, n });
+    });
+  });
+  lijst.sort((a,b) => a.prio - b.prio || a.status - b.status || a.laatst - b.laatst || a.n - b.n);
+  if (lijst.length) return lijst;
+  if (pid) return [];
+  const soort = discSoort(disc);
+  return S.ideeen.filter(i => i.status === 'bak' && i.verder && ideeSoort(i) === soort)
+    .sort((a,b) => (a.gezien || a.gemaakt) - (b.gezien || b.gemaakt)).map(i => ({ ideeId:i.id }));
+}
+function focusNaam(f){
+  if (!f) return '';
+  if (f.ideeId) { const i = vindIdee(f.ideeId); return i ? ideeTitel(i) : 'een idee'; }
+  const o = vindDeel(vindProject(f.pid), f.oid); return o ? o.naam : '?';
+}
+const OPWARM = {
+  muziek:'Rustig inspelen: een toonladder of een makkelijk nummer.', zang:'Neuriën, ademhalen, rustig opwarmen.',
+  comedy:'Hardop praten: je opening of een tongbreker.', schrijven:'Vijf minuten vrij schrijven, niets herlezen.', overig:'Rustig beginnen, zonder doel.'
+};
+const VRIJ = {
+  muziek:'Vrij spelen, zonder doel.', comedy:'Vrij praten over een idee uit de bak.', schrijven:'Vrij schrijven, waar het heen wil.', overig:'Vrij werken, zonder doel.'
+};
+function focusUitleg(f, soort){
+  if (f.ideeId) { const i = vindIdee(f.ideeId); return (i && i.mediaSoort === 'audio' ? 'Beluister het eerst. ' : '') + 'Werk het idee een stap verder, het hoeft niet af.'; }
+  const p = vindProject(f.pid), o = vindDeel(p, f.oid); if (!o) return '';
+  const lu = laatsteUitkomst(o);
+  const T = {
+    muziek:['Vorige keer stroef. Halve snelheid, dan pas opdrijven.','Nieuw: eerst luisteren, dan stukje per stukje.','Speel het door en blijf hangen bij wat hapert.'],
+    comedy:['Vorige keer stroef. Zeg het drie keer hardop, telkens iets korter.','Zoek de premisse en de punch, zeg het hardop.','Hardop doorlopen, let op je timing.'],
+    schrijven:['Vorige keer stroef. Begin bij één zin die wel goed is.','Schrijf een eerste klad, het mag slecht zijn.','Herlees en herschrijf één stuk.'],
+    overig:['Vorige keer stroef. Neem het kleiner en rustiger.','Begin klein, één stukje.','Werk het een stap verder.']
+  }[soort] || [];
+  let t = lu && lu.uitkomst === 'stroef' ? T[0] : o.status === 0 ? T[1] : T[2];
+  if (o.noot) t += ' Notitie: ' + o.noot;
+  return t;
+}
+function bouwSessie(disc, min, focus){
+  const v = VERDELING[min] || VERDELING[30];
+  const soort = disc === 'vrij' ? 'overig' : discSoort(disc);
+  const ow = disc === 'zang' || /zang/i.test(discNaam(disc)) ? OPWARM.zang : OPWARM[soort];
+  let stappen;
+  if (disc === 'vrij') stappen = [{ soort:'vrij', min, titel:'Gewoon spelen', uitleg:'Geen focus, geen doel. Speel, praat of schrijf wat er komt.' }];
+  else if (focus) stappen = [
+    { soort:'opwarmen', min:v[0], titel:'Opwarmen', uitleg:ow },
+    Object.assign({ soort:'focus', min:v[1], titel:focusNaam(focus), uitleg:focusUitleg(focus, soort) }, focus),
+    { soort:'vrij', min:v[2], titel:'Vrij', uitleg:VRIJ[soort] }
+  ];
+  else stappen = [{ soort:'opwarmen', min:v[0], titel:'Opwarmen', uitleg:ow }, { soort:'vrij', min:v[1] + v[2], titel:'Vrij', uitleg:VRIJ[soort] }];
+  return { disc, min, stappen, i:0, start:nu(), stapStart:nu(), opnames:[], klaar:false, na:{ uitkomst:null, omhoog:false, goed:'', noot:null } };
+}
+function sessieZin(s){ return s.stappen.map(x => x.min + ' min ' + (x.soort === 'opwarmen' ? 'opwarmen' : x.soort === 'focus' ? x.titel : x.titel === 'Gewoon spelen' ? 'gewoon spelen' : 'vrij')).join(', ') + '.'; }
+function focusStap(s){ return s ? s.stappen.find(x => x.soort === 'focus') : null; }
+
+/* ---------- vangen ---------- */
+let vc = null;
+function nieuweVangst(pid, oid){ return { modus:'opname', tekst:'', soort:null, pid: pid || null, oid: oid || null, foto:null, fotoUrl:null }; }
+async function bewaarVangst(stil){
+  if (!vc) return false;
+  const c = vc;
+  const audio = c.modus === 'opname' && rec.ctx === 'vang' && rec.staat === 'klaar' && rec.blob;
+  const foto = c.modus === 'foto' && c.foto;
+  const tekst = (c.tekst || '').trim();
+  if (!audio && !foto && !tekst) { if (stil) { vc = null; resetOpname(); } else toast('Er is nog niets om te bewaren.'); return false; }
+  vc = null;
+  const terugzet = momentopname();
+  const idee = { id:nieuwId(), tekst, soort:c.soort, pid:c.pid, oid:c.oid, media:null, mediaSoort:null, duur:0, gemaakt:nu(), status:'bak', verder:false, terugOp:null, gezien:null, noot:'' };
+  if (!idee.soort && c.pid) { const p = vindProject(c.pid); if (p) idee.soort = SOORT_NAAR_IDEE[projectSoort(p)]; }
+  try {
+    if (audio) { const mid = nieuwId(); await MEDIA.put({ id:mid, blob:rec.blob, type:rec.blob.type, gemaakt:nu() }); idee.media = mid; idee.mediaSoort = 'audio'; idee.duur = rec.duur; }
+    if (foto) { const mid = nieuwId(); await MEDIA.put({ id:mid, blob:c.foto, type:c.foto.type, gemaakt:nu() }); idee.media = mid; idee.mediaSoort = 'foto'; }
+  } catch(e) { toast('De opname of foto kon niet bewaard worden.'); }
+  resetOpname();
+  S.ideeen.unshift(idee); bewaar();
+  toast(stil ? 'Bewaard in de bak.' : 'In de bak.', terugzet);
+  if (route()[0] !== 'vang') teken();
+  return true;
+}
+async function bewaarSessieOpname(){
+  const s = S.sessie;
+  if (!s || rec.ctx !== 'sessie' || !rec.blob) { resetOpname(); tekenOpname(); return; }
+  const f = s.stappen[s.i] && s.stappen[s.i].soort === 'focus' ? s.stappen[s.i] : focusStap(s);
+  const soort = s.disc === 'vrij' ? 'overig' : discSoort(s.disc);
+  const idee = { id:nieuwId(), tekst:'', soort:SOORT_NAAR_IDEE[soort], pid:f && f.pid || null, oid:f && f.oid || null, media:null, mediaSoort:'audio', duur:rec.duur, gemaakt:nu(), status:'bak', verder:false, terugOp:null, gezien:null, noot:'' };
+  idee.tekst = (f ? f.titel + ': ' : '') + 'uit een sessie';
+  try { const mid = nieuwId(); await MEDIA.put({ id:mid, blob:rec.blob, type:rec.blob.type, gemaakt:nu() }); idee.media = mid; }
+  catch(e) { toast('De opname kon niet bewaard worden.'); resetOpname(); tekenOpname(); return; }
+  S.ideeen.unshift(idee); if (S.sessie) S.sessie.opnames.push(idee.id); bewaar();
+  resetOpname(); toast('Opname staat in je ideeënbak.');
+  if (route()[0] === 'sessie') teken();
+}
+async function verklein(bestand){
+  try {
+    const bm = await createImageBitmap(bestand);
+    const f = Math.min(1, 1600 / Math.max(bm.width, bm.height));
+    const c = document.createElement('canvas'); c.width = Math.round(bm.width * f); c.height = Math.round(bm.height * f);
+    c.getContext('2d').drawImage(bm, 0, 0, c.width, c.height);
+    return await new Promise(ok => c.toBlob(b => ok(b || bestand), 'image/jpeg', 0.82));
+  } catch(e) { return bestand; }
+}
+
+/* ---------- projecten maken ---------- */
+function leesLijst(tekst, groepNaam){
+  const groepen = []; let cur = null;
+  String(tekst || '').split(/\r?\n/).forEach(r => {
+    const t = r.trim();
+    if (!t) { if (cur && cur.items.length) cur = null; return; }
+    if (t.endsWith(':') && t.length > 1) { cur = { naam:t.slice(0,-1).trim(), items:[] }; groepen.push(cur); return; }
+    if (!cur) { cur = { naam:null, items:[] }; groepen.push(cur); }
+    const n = t.replace(/^(\d+[.)]\s*|[-•*]\s+)/, '').trim(); if (n) cur.items.push(n);
+  });
+  const vol = groepen.filter(g => g.items.length || g.naam);
+  if (vol.length === 1 && !vol[0].naam) return { groepen:[], items:vol[0].items.map(n => ({ naam:n, groep:null })) };
+  const uit = { groepen:[], items:[] }; let teller = 0;
+  vol.forEach(g => { teller++; const gid = nieuwId(); uit.groepen.push({ id:gid, naam:g.naam || (groepNaam + ' ' + teller) }); g.items.forEach(n => uit.items.push({ naam:n, groep:gid })); });
+  return uit;
+}
+function nieuwDeel(naam, groep){ return { id:nieuwId(), naam, groep:groep || null, status:0, links:[], noot:'', duur:null, sessies:[] }; }
+function maakProject(c){
+  const sj = SJABLONEN[c.sjabloon] || SJABLONEN.leeg;
+  const lijst = leesLijst(c.lijst, sj.groep);
+  return {
+    id:nieuwId(), naam:c.naam.trim() || 'Nieuw project', sjabloon:c.sjabloon, disc:c.disc,
+    statussen:sj.statussen.slice(), groepen:lijst.groepen, onderdelen:lijst.items.map(x => nieuwDeel(x.naam, x.groep)),
+    mijlpalen:[], duur:sj.duur, durf:!!c.durf,
+    ladder:(sj.soort === 'comedy' ? LADDER.comedy : LADDER.standaard).map(t => ({ t, gedaan:false })),
+    status:'actief', gemaakt:nu(), afgerond:null, terugblik:'', terugblikMedia:null
+  };
+}
+
+/* ---------- bouwstenen ---------- */
+function terugLink(label){ return `<button type="button" class="terugl" data-doe="terug">${ICOON.terug}${esc(label)}</button>`; }
+function onder(inner){ return `<div class="onder"><div class="binnen">${inner}</div></div>`; }
+function pil(p, idx){
+  const top = topStatus(p), k = kleur(projectSoort(p)), naam = esc(p.statussen[idx] ?? '?');
+  if (idx >= top) return `<span class="pil" style="background:${k};color:#17181D">${naam}</span>`;
+  if (idx <= 0) return `<span class="pil" style="border:1.5px dashed var(--dof);color:var(--stil2)">${naam}</span>`;
+  return `<span class="pil" style="border:1.5px solid ${k}">${naam}</span>`;
+}
+function mediaVan(i){
+  if (i.mediaSoort === 'audio' && i.media) return speelKnop(i.media);
+  if (i.mediaSoort === 'foto' && i.media) return `<img class="duim" data-foto="${esc(i.media)}" alt="">`;
+  return `<span class="letter" style="color:${kleur(ideeSoort(i))}">${esc((i.soort ? IDEESOORT[i.soort].naam : 'T').charAt(0))}</span>`;
+}
+function ideeSub(i){
+  const d = [];
+  if (i.soort) d.push(klein1(IDEESOORT[i.soort].naam));
+  if (i.mediaSoort === 'audio') d.push('opname ' + sec(i.duur)); else if (i.mediaSoort === 'foto') d.push('foto');
+  d.push(rel(i.gemaakt));
+  const p = i.pid && vindProject(i.pid); if (p) d.push('bij ' + p.naam);
+  if (i.verder) d.push('verder mee');
+  const r = rustTekst(i); if (r) d.push(r);
+  return d.join(' · ');
+}
+function ideeRij(i){
+  return `<div class="r">${mediaVan(i)}<a class="wat" href="#idee/${esc(i.id)}" style="text-decoration:none;min-height:44px;justify-content:center"><b>${esc(ideeTitel(i))}</b><span>${esc(ideeSub(i))}</span></a></div>`;
+}
+function niets(t){ return terugLink('Terug') + `<p class="leeg">${esc(t)}</p>`; }
+function veldLabel(id, t){ return `<label class="label" for="${id}">${esc(t)}</label>`; }
+let ideeRust = false, kies = null, np = null, afrTekst = '', groepOpen = new Set(), laatstGetekend = null;
+
+const SCHERM = {};
+
+/* ---------- start ---------- */
+SCHERM.start = () => {
+  const bak = uitDeBak();
+  const ideeen = inBak();
+  const grappen = ideeen.filter(i => i.soort === 'grap').length;
+  let h = `<div class="kop"><h1>Atelier</h1><a class="icoonknop" href="#instellingen" aria-label="Instellingen">${ICOON.instel}</a></div>`;
+  if (S.sessie) h += `<a class="kaart" href="#${S.sessie.klaar ? 'na' : 'sessie'}" style="border:2px solid var(--amber)"><b>${S.sessie.klaar ? 'Je sessie is klaar' : 'Er loopt een sessie'}</b><span class="stil fijn">${esc(discNaam(S.sessie.disc))} · ${S.sessie.min} min · tik om verder te gaan</span></a>`;
+  if (bak) h += bakKaart(bak);
+  const laatste = ideeen.slice().sort((a,b) => b.gemaakt - a.gemaakt)[0];
+  h += `<a class="kaart" href="#bak" style="gap:4px"><div class="kop"><h2>Ideeën</h2><span class="stil fijn">${ideeen.length}</span></div><span class="stil fijn">${
+    laatste ? (grappen ? 'waarvan ' + grappen + (grappen === 1 ? ' grap' : ' grappen') + ' · ' : '') + 'laatste: ' + esc(ideeTitel(laatste)) + ', ' + rel(laatste.gemaakt) : 'Nog leeg. Tik op Vang als er iets opkomt.'}</span></a>`;
+  let volgende = null;
+  for (const d of S.disciplines) { const k = kandidaten(d.id)[0]; if (k) { volgende = 'Volgende op ' + klein1(d.naam) + ': ' + focusNaam(k); break; } }
+  h += `<a class="kaart" href="#speel" style="gap:4px"><h2>Oefenen</h2><span class="stil fijn">${esc(volgende || 'Kies wat je speelt, ik stel een sessie voor.')}</span></a>`;
+  const act = actieveProjecten();
+  h += `<div class="kaart"><div class="kop"><h2>Projecten</h2><a href="#projecten" class="stil fijn" style="min-height:44px;display:flex;align-items:center;text-decoration:none">Alle projecten</a></div>`;
+  if (!act.length) h += `<span class="stil fijn">Nog geen projecten. <a href="#nieuw">Start er een</a> als je wil.</span>`;
+  else h += `<div class="lijst">` + act.slice(0,4).map(p => {
+    const mr = mijlpaalRegel(p);
+    return `<a class="r" href="#project/${esc(p.id)}"><span class="stip" style="background:${kleur(projectSoort(p))}"></span><span class="wat"><b>${esc(p.naam)}</b><span>${esc(mr ? mr.tekst : p.onderdelen.length + ' ' + sjab(p).meer)}</span></span></a>`;
+  }).join('') + `</div>`;
+  h += `</div>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="vang">${ICOON.mic} Vang</button><a class="knop lijn2 groot" href="#speel" style="background:none;color:var(--inkt)">${ICOON.noot} Ik speel</a>`);
+  return h;
+};
+function bakKaart(i){
+  const media = i.mediaSoort === 'audio' && i.media ? speelKnop(i.media, true) : i.mediaSoort === 'foto' && i.media ? `<img class="duim" data-foto="${esc(i.media)}" alt="">` : '';
+  const sub = [i.soort ? IDEESOORT[i.soort].naam : '', i.mediaSoort === 'audio' ? sec(i.duur) : '', (i.pid && vindProject(i.pid)) ? 'bij ' + vindProject(i.pid).naam : ''].filter(Boolean).join(' · ');
+  const oud = rel(i.gemaakt);
+  let h = `<div class="kaart bak"><div class="label warm">Uit de bak · ${esc(oud === 'vandaag' ? 'van vandaag' : oud + ' oud')}</div>
+    <div class="rij" style="gap:12px">${media}<div style="flex:1;min-width:0"><b style="font-size:17px;overflow-wrap:anywhere">${esc(ideeTitel(i))}</b>${sub ? `<div class="stil klein">${esc(sub)}</div>` : ''}</div></div>`;
+  if (bakRust) h += `<div class="label">Laat rusten tot</div><div class="drie"><button type="button" class="knop rand mini" data-doe="rust" data-waar="bak" data-id="${esc(i.id)}" data-dagen="7">Een week</button><button type="button" class="knop rand mini" data-doe="rust" data-waar="bak" data-id="${esc(i.id)}" data-dagen="30">Een maand</button><button type="button" class="knop rand mini" data-doe="rust" data-waar="bak" data-id="${esc(i.id)}" data-dagen="90">3 maanden</button></div><button type="button" class="tekstknop" data-doe="annuleerrust">Toch niet</button>`;
+  else h += `<div class="drie"><button type="button" class="knop mini" data-doe="bakverder" data-id="${esc(i.id)}">Verder mee</button><button type="button" class="knop rand mini" data-doe="bakrust">Laat rusten</button><button type="button" class="knop rand mini" data-doe="baklos" data-id="${esc(i.id)}">Laat los</button></div>`;
+  return h + `</div>`;
+}
+
+/* ---------- ideeënbak ---------- */
+SCHERM.bak = (f) => {
+  f = f || 'alles';
+  if (f === 'los') {
+    const los = S.ideeen.filter(i => i.status === 'los').sort((a,b) => b.gemaakt - a.gemaakt);
+    return terugLink('Ideeën') + `<h1>Losgelaten</h1><p class="stil fijn" style="margin:0">Losgelaten ideeën komen niet meer terug. Open er een om het terug in de bak te zetten of definitief te wissen.</p>` +
+      (los.length ? `<div class="kaart"><div class="lijst">${los.map(ideeRij).join('')}</div></div>` : `<p class="leeg">Niets losgelaten.</p>`);
+  }
+  const alle = inBak();
+  const lijst = alle.filter(i => f === 'alles' || ideeSoort(i) === f).sort((a,b) => (b.verder ? 1 : 0) - (a.verder ? 1 : 0) || b.gemaakt - a.gemaakt);
+  const nLos = S.ideeen.filter(i => i.status === 'los').length;
+  const uitleg = S.uitDeBak === 'uit' ? 'Niets hier moet.' : S.uitDeBak === 'dag' ? 'Niets hier moet. Elke dag haal ik er één oud idee uit de bak.' : 'Niets hier moet. Elke keer dat je het atelier opent, haal ik er één oud idee uit de bak.';
+  let h = terugLink('Atelier') + `<div class="kop"><h1>Ideeën</h1><span class="stil">${alle.length}</span></div><p class="stil fijn" style="margin:0">${uitleg}</p>`;
+  h += `<div class="chips">` + [['alles','Alles'],['muziek','Muziek'],['comedy','Comedy'],['schrijven','Schrijven'],['overig','Overig']].map(([k,n]) => `<button type="button" class="chip" data-doe="filter" data-w="${k}" aria-pressed="${f === k}">${n}</button>`).join('') + `</div>`;
+  h += lijst.length ? `<div class="kaart" style="padding:4px 14px"><div class="lijst">${lijst.map(ideeRij).join('')}</div></div>` : `<p class="leeg">${alle.length ? 'Niets in deze soort.' : 'De bak is nog leeg. Alles wat je vangt, komt hier: een riff, een grap, een zin, een foto van een notitie.'}</p>`;
+  if (nLos) h += `<a class="tekstknop" href="#bak/los" style="align-self:flex-start;display:inline-flex;align-items:center">Losgelaten (${nLos})</a>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="vang">${ICOON.mic} Iets nieuws vangen</button>`);
+  return h;
+};
+
+SCHERM.idee = (id) => {
+  const i = vindIdee(id); if (!i) return niets('Dit idee bestaat niet meer.');
+  let h = terugLink('Ideeën');
+  if (i.mediaSoort === 'audio' && i.media) h += `<div class="opname klein">${speelKnop(i.media, true)}<div style="flex:1"><b>Opname ${sec(i.duur)}</b><div class="stil klein">gevangen ${esc(relZin(i.gemaakt))}</div></div></div>`;
+  if (i.mediaSoort === 'foto' && i.media) h += `<img class="foto-groot" data-foto="${esc(i.media)}" alt="${esc(ideeTitel(i))}">`;
+  h += veldLabel('idee-tekst', i.media ? 'Naam of tekst · mag leeg' : 'Tekst');
+  h += `<textarea class="veld" id="idee-tekst" rows="3" data-in="idee-tekst" placeholder="${esc(ideeTitel(i))}">${esc(i.tekst)}</textarea>`;
+  if (kanSpraak()) h += `<button type="button" class="tekstknop" style="align-self:flex-start;margin-top:-8px" data-doe="dicteer" data-veld="idee-tekst">Inspreken als tekst</button>`;
+  h += `<div class="label">Wat is het?</div><div class="chips">` + Object.entries(IDEESOORT).map(([k,v]) => `<button type="button" class="chip" data-doe="ideesoort" data-w="${k}" aria-pressed="${i.soort === k}">${v.naam}</button>`).join('') + `</div>`;
+  const projs = S.projecten.filter(p => p.status === 'actief' || p.id === i.pid);
+  h += veldLabel('idee-project', 'Bij een project?') + `<select class="veld" id="idee-project" data-ch="idee-project"><option value="">Nee, gewoon de bak</option>${projs.map(p => `<option value="${esc(p.id)}"${p.id === i.pid ? ' selected' : ''}>${esc(p.naam)}</option>`).join('')}</select>`;
+  const p = i.pid && vindProject(i.pid);
+  if (p && p.onderdelen.length) h += veldLabel('idee-deel', 'Bij welk ' + sjab(p).onderdeel + '?') + `<select class="veld" id="idee-deel" data-ch="idee-deel"><option value="">Bij het hele project</option>${p.onderdelen.map(o => `<option value="${esc(o.id)}"${o.id === i.oid ? ' selected' : ''}>${esc(o.naam)}</option>`).join('')}</select>`;
+  h += veldLabel('idee-noot', 'Notitie · mag leeg') + `<textarea class="veld" id="idee-noot" rows="2" data-in="idee-noot">${esc(i.noot || '')}</textarea>`;
+  const info = ['gevangen ' + relZin(i.gemaakt), rustTekst(i)].filter(Boolean).join(' · ');
+  h += `<div class="stil klein">${esc(info)}</div>`;
+  if (i.status === 'los') {
+    h += `<div class="twee"><button type="button" class="knop" data-doe="ideeterug" data-id="${esc(i.id)}">Terug in de bak</button><button type="button" class="knop rand" data-doe="ideewis" data-id="${esc(i.id)}">Definitief wissen</button></div>`;
+  } else if (ideeRust) {
+    h += `<div class="label">Laat rusten tot</div><div class="drie"><button type="button" class="knop rand mini" data-doe="rust" data-id="${esc(i.id)}" data-dagen="7">Een week</button><button type="button" class="knop rand mini" data-doe="rust" data-id="${esc(i.id)}" data-dagen="30">Een maand</button><button type="button" class="knop rand mini" data-doe="rust" data-id="${esc(i.id)}" data-dagen="90">3 maanden</button></div><button type="button" class="tekstknop" style="align-self:flex-start" data-doe="annuleerrust">Toch niet</button>`;
+  } else {
+    h += `<div class="drie"><button type="button" class="knop mini${i.verder ? '' : ' rand'}" data-doe="ideeverder" data-id="${esc(i.id)}" aria-pressed="${!!i.verder}">${i.verder ? ICOON.vink + ' Verder mee' : 'Verder mee'}</button><button type="button" class="knop rand mini" data-doe="ideerust">Laat rusten</button><button type="button" class="knop rand mini" data-doe="ideelos" data-id="${esc(i.id)}">Laat los</button></div>`;
+    h += `<div class="stil klein">${i.verder ? 'Dit idee kan als focus terugkomen bij Ik speel (' + esc(klein1(SOORT[ideeSoort(i)].naam)) + '), als er geen projectwerk klaarstaat.' : 'Verder mee: het idee kan als focus terugkomen in je oefensessies.'}</div>`;
+  }
+  return h;
+};
+
+/* ---------- vangen ---------- */
+SCHERM.vang = (pid, oid) => {
+  if (!vc) vc = nieuweVangst(pid, oid);
+  let h = terugLink('Terug') + `<h1>Vang</h1>`;
+  h += `<div class="seg" role="group" aria-label="Soort vangst">${[['opname','Opname'],['tekst','Tekst'],['foto','Foto']].map(([k,n]) => `<button type="button" data-doe="modus" data-m="${k}" aria-pressed="${vc.modus === k}">${n}</button>`).join('')}</div>`;
+  if (vc.modus === 'opname') {
+    h += `<div class="opname" id="opname-vak" data-ctx="vang">${opnameInhoud('vang')}</div>`;
+    h += `<input class="veld" id="vang-tekst" data-in="vang-tekst" value="${esc(vc.tekst)}" placeholder="Naam, mag leeg" aria-label="Naam van de opname">`;
+  } else if (vc.modus === 'tekst') {
+    h += `<textarea class="veld" id="vang-tekst" rows="4" data-in="vang-tekst" placeholder="Een grap, een zin, een titel, een plan…" aria-label="Tekst">${esc(vc.tekst)}</textarea>`;
+    if (kanSpraak()) h += `<button type="button" class="tekstknop" style="align-self:flex-start;margin-top:-8px" data-doe="dicteer" data-veld="vang-tekst">Inspreken als tekst</button>`;
+  } else {
+    h += vc.fotoUrl ? `<img class="foto-groot" src="${vc.fotoUrl}" alt="Je foto"><button type="button" class="tekstknop" style="align-self:flex-start" data-doe="kiesfoto">Andere foto</button>`
+      : `<button type="button" class="opname" style="border:0;color:var(--inkt);width:100%" data-doe="kiesfoto"><span class="rond">${ICOON.foto}</span><span class="stil fijn">Neem een foto van een notitie, een setlist, een idee op papier.</span></button>`;
+    h += `<input class="veld" id="vang-tekst" data-in="vang-tekst" value="${esc(vc.tekst)}" placeholder="Naam, mag leeg" aria-label="Naam van de foto">`;
+  }
+  h += `<div class="label">Wat is het? · mag leeg blijven</div><div class="chips">` + Object.entries(IDEESOORT).map(([k,v]) => `<button type="button" class="chip" data-doe="vangsoort" data-w="${k}" aria-pressed="${vc.soort === k}">${v.naam}</button>`).join('') + `</div>`;
+  const act = actieveProjecten();
+  if (act.length) {
+    h += `<div class="label">Bij een project?</div><div class="chips"><button type="button" class="chip" data-doe="vangproject" data-id="" aria-pressed="${!vc.pid}">Nee, gewoon de bak</button>` + act.map(p => `<button type="button" class="chip" data-doe="vangproject" data-id="${esc(p.id)}" aria-pressed="${vc.pid === p.id}"><span class="stip" style="width:8px;height:8px;background:${kleur(projectSoort(p))}"></span>${esc(p.naam)}</button>`).join('') + `</div>`;
+    const o = vc.oid && vindDeel(vindProject(vc.pid), vc.oid); if (o) h += `<div class="stil klein">bij ${esc(o.naam)}</div>`;
+  }
+  h += onder(`<button type="button" class="knop amber groot" data-doe="bewaar">Bewaar</button>`);
+  return h;
+};
+
+/* ---------- oefenen ---------- */
+function huidigeFocus(){
+  if (kies.oid && kies.pid && vindDeel(vindProject(kies.pid), kies.oid)) return { pid:kies.pid, oid:kies.oid };
+  const l = kandidaten(kies.disc, kies.pid); if (!l.length) return null;
+  const k = l[kies.alt % l.length]; return k.ideeId ? { ideeId:k.ideeId } : { pid:k.pid, oid:k.oid };
+}
+SCHERM.speel = (a, b, c) => {
+  if (!kies || kies.route !== location.hash) {
+    let disc = a || S.laatsteDisc || (S.disciplines[0] && S.disciplines[0].id) || 'vrij';
+    if (disc !== 'vrij' && !vindDisc(disc)) disc = (S.disciplines[0] && S.disciplines[0].id) || 'vrij';
+    kies = { route:location.hash, disc, min:S.laatsteMin || 30, pid:b || null, oid:c || null, alt:0 };
+  }
+  let h = terugLink('Atelier') + `<h1>Ik speel</h1><div class="label">Wat wordt het?</div><div class="tegels">`;
+  h += S.disciplines.map(d => { const k = kandidaten(d.id)[0]; return `<button type="button" class="tegel" data-doe="kiesdisc" data-id="${esc(d.id)}" aria-pressed="${kies.disc === d.id}"><b><span class="stip" style="width:8px;height:8px;background:${kleur(d.soort)};margin-right:6px;vertical-align:middle"></span>${esc(d.naam)}</b><span>${esc(k ? 'Volgende: ' + focusNaam(k) : 'Vrij')}</span></button>`; }).join('');
+  h += `<button type="button" class="tegel" data-doe="kiesdisc" data-id="vrij" aria-pressed="${kies.disc === 'vrij'}"><b>Zonder doel</b><span>Gewoon spelen</span></button></div>`;
+  h += `<div class="label">Hoe lang?</div><div class="drie">` + [15,30,45].map(m => `<button type="button" class="chip" style="justify-content:center;border-radius:12px;min-height:44px" data-doe="kiesmin" data-w="${m}" aria-pressed="${kies.min === m}">${m} min</button>`).join('') + `</div>`;
+  const f = kies.disc === 'vrij' ? null : huidigeFocus();
+  const s = bouwSessie(kies.disc, kies.min, f);
+  const p = kies.pid && vindProject(kies.pid);
+  const aantal = kies.oid ? 1 : kandidaten(kies.disc, kies.pid).length;
+  h += `<div class="kaart"><div><b>Jouw sessie${p ? ' voor ' + esc(p.naam) : ''}:</b> <span class="stil2">${esc(sessieZin(s))}</span></div>`;
+  if (f && f.oid) { const o = vindDeel(vindProject(f.pid), f.oid); const lu = o && laatsteUitkomst(o); if (lu && lu.uitkomst === 'stroef') h += `<div class="stil klein">${esc(o.naam)} ging vorige keer stroef, daarom komt het terug.</div>`; }
+  if (aantal > 1) h += `<button type="button" class="tekstknop" style="align-self:flex-start" data-doe="andersfocus">Iets anders als focus</button>`;
+  if (!f && kies.disc !== 'vrij') h += `<div class="stil klein">Geen projectwerk of idee om verder mee te gaan. Dat is prima: dan wordt het vrij spelen.</div>`;
+  h += `</div>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="begin">Begin</button>`);
+  return h;
+};
+function stapMinuten(s){ return Math.floor((nu() - s.stapStart) / 60000); }
+SCHERM.sessie = () => {
+  const s = S.sessie;
+  if (!s) { vervang('#start'); return null; }
+  if (s.klaar) { vervang('#na'); return null; }
+  const fs = focusStap(s), p = fs && fs.pid && vindProject(fs.pid), ca = p && aftellen(p);
+  let h = `<div><div class="label">${esc(discNaam(s.disc))} · ${s.min} min</div>${p ? `<div class="stil fijn" style="margin-top:4px">${esc(p.naam)}${ca ? ' · nog ' + ca.getal + ' ' + ca.eenheid : ''}</div>` : ''}</div>`;
+  h += s.stappen.map((x, n) => {
+    if (n < s.i) return `<div class="stap af"><span style="color:var(--stil)">${ICOON.vink}</span><b style="flex:1">${esc(x.titel)}</b><span class="stil klein">${x.min} min</span></div>`;
+    if (n > s.i) return `<div class="stap later"><b style="flex:1">${esc(x.titel)}</b><span class="stil klein">${x.min} min</span></div>`;
+    const m = stapMinuten(s);
+    let extra = '';
+    if (x.oid) { const o = vindDeel(vindProject(x.pid), x.oid); if (o && o.links.length) extra = `<div class="chips">${o.links.map(l => `<a class="knop rand mini" href="${esc(l.url)}" target="_blank" rel="noopener">${ICOON.link} ${esc(l.naam)}</a>`).join('')}</div>`; }
+    if (x.ideeId) { const i = vindIdee(x.ideeId); if (i && i.mediaSoort === 'audio' && i.media) extra = `<div class="rij">${speelKnop(i.media)}<span class="stil fijn">Beluister het idee (${sec(i.duur)})</span></div>`; }
+    return `<div class="stap nu"><div class="label warm">Nu${x.soort === 'focus' ? ' · focus' : ''}</div><b style="font-size:20px;font-family:var(--titel)">${esc(x.titel)}</b><div class="fijn" style="color:var(--stil2);line-height:1.45">${esc(x.uitleg)}</div>
+      <div class="rij" style="align-items:baseline"><span class="groot-getal" id="stap-min" style="font-size:30px">${m}</span><span class="stil">van ${x.min} min</span><span class="stil klein" id="stap-om" style="margin-left:auto">${m >= x.min ? 'tijd om, ga verder als je wil' : ''}</span></div>
+      <div class="balk"><i id="stap-balk" style="width:${Math.min(100, m / x.min * 100)}%"></i></div>${extra}</div>`;
+  }).join('');
+  h += `<div class="opname klein" id="opname-vak" data-ctx="sessie">${opnameInhoud('sessie')}</div>`;
+  if (s.opnames.length) h += `<div class="stil klein">${s.opnames.length === 1 ? '1 opname' : s.opnames.length + ' opnames'} van deze sessie staan in je ideeënbak.</div>`;
+  const laatste = s.i >= s.stappen.length - 1;
+  h += onder(`<button type="button" class="knop rand groot" data-doe="stopsessie">Ik stop hier</button><button type="button" class="knop amber groot" data-doe="${laatste ? 'stopsessie' : 'volgende'}">${laatste ? 'Klaar' : 'Volgende stap'}</button>`);
+  return h;
+};
+function tikSessie(){
+  if (route()[0] !== 'sessie' || !S.sessie || S.sessie.klaar) return;
+  const s = S.sessie, x = s.stappen[s.i], m = stapMinuten(s);
+  const a = $('#stap-min'), b = $('#stap-balk'), c = $('#stap-om');
+  if (a) a.textContent = m; if (b) b.style.width = Math.min(100, m / x.min * 100) + '%'; if (c) c.textContent = m >= x.min ? 'tijd om, ga verder als je wil' : '';
+}
+SCHERM.na = () => {
+  const s = S.sessie;
+  if (!s) { vervang('#start'); return null; }
+  if (!s.klaar) { vervang('#sessie'); return null; }
+  const fs = focusStap(s);
+  const p = fs && fs.pid && vindProject(fs.pid), o = p && vindDeel(p, fs.oid), i = fs && fs.ideeId && vindIdee(fs.ideeId);
+  let h = `<div class="label">${esc(discNaam(s.disc))} · sessie klaar</div>`;
+  if (fs && (o || i)) {
+    h += `<h1>Hoe ging ${esc(o ? o.naam : ideeTitel(i))}?</h1><p class="stil fijn" style="margin:0">Eén tik. Het bepaalt alleen wat de volgende keer terugkomt.</p><div class="lijst" style="gap:8px">`;
+    const opties = [['vlot','Vlot', o ? 'volgende keer komt iets anders' : 'mooi zo'],['stroef','Stroef','komt volgende keer terug, rustiger'],['niet','Nog niet aan toegekomen','blijft gewoon staan, geen probleem']];
+    h += opties.map(([k,n,u]) => `<button type="button" class="tegel" style="min-height:60px;width:100%" data-doe="uitkomst" data-w="${k}" aria-pressed="${s.na.uitkomst === k}"><b>${n}</b><span>${u}</span></button>`).join('') + `</div>`;
+    if (o && s.na.uitkomst === 'vlot' && o.status < topStatus(p)) h += `<label class="kaart" style="flex-direction:row;align-items:center;min-height:52px"><input type="checkbox" data-ch="omhoog"${s.na.omhoog ? ' checked' : ''}><span>Zet ${esc(o.naam)} op ‘${esc(p.statussen[o.status + 1])}’</span></label>`;
+  } else h += `<h1>Sessie klaar</h1>`;
+  h += veldLabel('na-goed', 'Wat ging er goed? · mag leeg') + `<textarea class="veld" id="na-goed" rows="2" data-in="na-goed">${esc(s.na.goed)}</textarea>`;
+  if (o || i) h += veldLabel('na-noot', 'Notitie bij ' + (o ? o.naam : 'dit idee') + ' · mag leeg') + `<textarea class="veld" id="na-noot" rows="2" data-in="na-noot">${esc(s.na.noot ?? '')}</textarea>`;
+  const opn = s.opnames.map(vindIdee).filter(Boolean);
+  if (opn.length) h += `<div class="kaart" style="padding:4px 14px"><div class="lijst">${opn.map(x => `<div class="r">${x.media ? speelKnop(x.media) : ''}<span class="wat"><b>Opname van vandaag, ${sec(x.duur)}</b><span>staat in je ideeënbak</span></span></div>`).join('')}</div></div>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="naklaar">Terug naar het atelier</button>`);
+  return h;
+};
+
+/* ---------- projecten ---------- */
+SCHERM.projecten = () => {
+  const act = actieveProjecten(), af = S.projecten.filter(p => p.status === 'af').sort((a,b) => b.afgerond - a.afgerond);
+  let h = terugLink('Atelier') + `<h1>Projecten</h1><div class="label">Actief</div>`;
+  h += act.length ? `<div class="kaart" style="padding:4px 14px"><div class="lijst">${act.map(p => { const mr = mijlpaalRegel(p); return `<a class="r" href="#project/${esc(p.id)}"><span class="stip" style="background:${kleur(projectSoort(p))}"></span><span class="wat"><b>${esc(p.naam)}</b><span>${esc(klein1(sjab(p).naam))}</span><span>${esc(mr ? mr.tekst : 'Geen mijlpaal · ' + p.onderdelen.length + ' ' + sjab(p).meer)}</span></span><span style="color:var(--stil)">${ICOON.verder}</span></a>`; }).join('')}</div></div>` : `<p class="leeg" style="margin:0">Nog geen actieve projecten.</p>`;
+  h += `<a class="knop rand" href="#nieuw">+ Nieuw project</a>`;
+  h += `<div class="label" style="margin-top:8px">Afgewerkt</div>`;
+  h += af.length ? `<div class="kaart" style="padding:4px 14px"><div class="lijst">${af.map(p => `<div class="r" style="align-items:flex-start;padding:10px 0">${p.terugblikMedia ? speelKnop(p.terugblikMedia) : `<span class="stip" style="background:${kleur(projectSoort(p))};margin-top:6px"></span>`}<a class="wat" href="#project/${esc(p.id)}" style="text-decoration:none"><b>${esc(p.naam)}</b><span>afgerond ${esc(datumKort(dagSleutel(p.afgerond)))}</span>${p.terugblik ? `<span class="citaat">“${esc(p.terugblik)}”</span>` : ''}</a></div>`).join('')}</div></div>` : '';
+  h += `<p class="stil klein" style="margin:0">Een afgewerkt project blijft hier staan met je terugblik. De ideeën die eraan hingen, blijven gewoon in de bak.</p>`;
+  return h;
+};
+function standaardDisc(sjabloon){ const soort = (SJABLONEN[sjabloon] || {}).soort; const d = S.disciplines.find(x => x.soort === soort) || S.disciplines[0]; return d ? d.id : null; }
+SCHERM.nieuw = () => {
+  if (!np) np = { naam:'', sjabloon:'band', disc:standaardDisc('band'), lijst:'', durf:false };
+  const sj = SJABLONEN[np.sjabloon];
+  let h = terugLink('Projecten') + `<h1>Nieuw project</h1>`;
+  h += veldLabel('np-naam', 'Naam') + `<input class="veld" id="np-naam" data-in="np-naam" value="${esc(np.naam)}" placeholder="bv. Eigen nummers">`;
+  h += `<div class="label">Sjabloon</div><div class="lijst" style="gap:8px">` + Object.entries(SJABLONEN).map(([k,v]) => `<button type="button" class="tegel" style="width:100%;min-height:60px" data-doe="npsjab" data-w="${k}" aria-pressed="${np.sjabloon === k}"><b>${k === 'leeg' ? 'Leeg: ik kies alles zelf' : esc(v.naam)}</b><span>${esc(v.statussen.join(' · '))}</span></button>`).join('') + `</div>`;
+  h += `<div class="label">Discipline · voor Ik speel</div><div class="chips">` + S.disciplines.map(d => `<button type="button" class="chip" data-doe="npdisc" data-id="${esc(d.id)}" aria-pressed="${np.disc === d.id}">${esc(d.naam)}</button>`).join('') + `</div>`;
+  h += veldLabel('np-lijst', sj.meer + ' · plak een lijst, één per regel · mag leeg') + `<textarea class="veld" id="np-lijst" rows="6" data-in="np-lijst" placeholder="Blok 1:&#10;Eerste ${esc(sj.onderdeel)}&#10;Tweede ${esc(sj.onderdeel)}&#10;&#10;Blok 2:&#10;…">${esc(np.lijst)}</textarea>`;
+  h += `<div class="stil klein" style="margin-top:-6px">Een lege regel begint een nieuwe groep, zoals een blok. Een regel die eindigt op een dubbelpunt wordt de naam van die groep.</div>`;
+  h += `<label class="kaart" style="flex-direction:row;align-items:center;min-height:56px"><span style="flex:1"><b>Durfladder gebruiken</b><br><span class="stil klein">kleine stappen naar publiek · standaard uit</span></span><input type="checkbox" data-ch="np-durf"${np.durf ? ' checked' : ''}></label>`;
+  h += `<p class="stil klein" style="margin:0">Statussen en mijlpalen kun je achteraf instellen. Hoeft niet.</p>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="maakproject">Maak het project</button>`);
+  return h;
+};
+function groepenVan(p){
+  const ids = new Set(p.groepen.map(g => g.id));
+  const uit = p.groepen.map(g => ({ id:g.id, naam:g.naam, items:p.onderdelen.filter(o => o.groep === g.id) }));
+  const rest = p.onderdelen.filter(o => !o.groep || !ids.has(o.groep));
+  if (rest.length || !uit.length) uit.push({ id:'_', naam: uit.length ? 'Zonder groep' : null, items:rest });
+  return uit;
+}
+function speelInfo(o){ const lu = laatsteUitkomst(o); return lu ? 'gespeeld ' + rel(lu.ts) + (lu.uitkomst === 'stroef' ? ', stroef' : '') : 'nog niet gespeeld'; }
+SCHERM.project = (id) => {
+  const p = vindProject(id); if (!p) return niets('Dit project bestaat niet meer.');
+  const sj = sjab(p), top = topStatus(p);
+  let h = terugLink('Terug') + `<div class="kop"><h1>${esc(p.naam)}</h1><a href="#instellen/${esc(p.id)}" class="stil fijn" style="min-height:44px;display:flex;align-items:center">Instellen</a></div>`;
+  h += `<div class="stil fijn" style="margin-top:-8px">Sjabloon: ${esc(klein1(sj.naam))} · ${esc(discNaam(p.disc))}</div>`;
+  if (p.status === 'af') {
+    h += `<div class="kaart"><b>Afgerond op ${esc(datumLang(dagSleutel(p.afgerond)))}</b>${p.terugblik ? `<span class="citaat">“${esc(p.terugblik)}”</span>` : ''}${p.terugblikMedia ? `<div class="rij">${speelKnop(p.terugblikMedia)}<span class="stil fijn">Ingesproken terugblik</span></div>` : ''}
+      <div class="twee"><button type="button" class="knop rand mini" data-doe="heractiveer" data-id="${esc(p.id)}">Weer actief maken</button><button type="button" class="knop rand mini" data-doe="vertrekpunt" data-id="${esc(p.id)}">Nieuw project op basis hiervan</button></div></div>`;
+  }
+  const ev = gebeurtenissen(p), ca = aftellen(p), mr = mijlpaalRegel(p);
+  if (ev.length || ca || mr) {
+    h += `<div class="kaart">`;
+    if (ev.length || ca) h += `<div class="rij" style="align-items:flex-start;gap:14px"><div style="flex:1;display:flex;flex-direction:column;gap:4px">${ev.map(m => `<span>${esc(m.wat || 'Mijlpaal')} <b>${esc(datumLang(m.datum))}</b></span>`).join('') || '<span class="stil">Volgende datum</span>'}</div>${ca ? `<div style="text-align:right"><div class="groot-getal">${ca.getal}</div><div class="stil klein">${ca.eenheid}</div></div>` : ''}</div>`;
+    if (mr) h += `<div style="border-top:1px solid var(--lijn2);padding-top:10px">${mr.voorbij ? '<span class="stil">Datum voorbij, verschuif ze bij Instellen als je wil:</span><br>' : '<span class="stil">Volgende mijlpaal:</span><br>'}<b>${esc(datumKort(mr.m.datum))}</b>, ${esc(klein1(mijlpaalWat(p, mr.m)))} <span class="stil">· nog ${nogTe(p, mr.m)}</span></div>`;
+    h += `</div>`;
+  }
+  if (p.onderdelen.length) h += `<div class="chips" aria-label="Statussen">${p.statussen.slice().reverse().map((s, n) => pil(p, top - n)).join('')}</div>`;
+  const groepen = groepenVan(p);
+  groepen.forEach(g => {
+    if (!g.items.length && g.id === '_') return;
+    const nTop = g.items.filter(o => o.status >= top).length;
+    const alles = g.items.length && nTop === g.items.length;
+    const sleutel = p.id + ':' + g.id;
+    const open = alles ? groepOpen.has(sleutel) : !groepOpen.has(sleutel);
+    const mpG = g.id !== '_' && p.mijlpalen.filter(m => m.groep === g.id && m.min != null && nogTe(p, m) > 0).sort((a,b) => a.datum < b.datum ? -1 : 1)[0];
+    const totaal = p.duur ? g.items.reduce((t, o) => t + (o.duur || 0), 0) : 0;
+    h += `<div class="kaart">`;
+    if (g.naam) h += `<button type="button" class="groepkop" data-doe="groep" data-id="${esc(sleutel)}" aria-expanded="${open}"><b>${esc(g.naam)}${mpG ? ' · ' + esc(datumKort(mpG.datum)) : ''}</b><span class="stil klein">${nTop} van ${g.items.length} ${esc(p.statussen[top])}${totaal ? ' · ' + totaal + ' min' : ''} ${open ? '▾' : '▸'}</span></button>`;
+    else if (totaal) h += `<div class="stil klein">Totaal ${totaal} min</div>`;
+    if (open) h += `<div class="lijst">${g.items.map(o => `<a class="r" href="#onderdeel/${esc(p.id)}/${esc(o.id)}"><span class="wat"><b>${esc(o.naam)}</b><span>${esc(speelInfo(o))}${p.duur && o.duur ? ' · ' + o.duur + ' min' : ''}</span></span>${pil(p, o.status)}</a>`).join('') || '<span class="stil fijn">Nog leeg.</span>'}</div>`;
+    h += `</div>`;
+  });
+  if (p.status === 'actief') h += `<div class="rij"><input class="veld" id="nieuw-deel" placeholder="+ ${esc(sj.onderdeel)} toevoegen" aria-label="${esc(groot1(sj.onderdeel))} toevoegen"><button type="button" class="knop mini" data-doe="deelerbij" data-id="${esc(p.id)}">Voeg toe</button></div>`;
+  const ideeen = S.ideeen.filter(i => i.pid === p.id && i.status === 'bak');
+  if (ideeen.length) h += `<div class="label">Ideeën bij dit project</div><div class="kaart" style="padding:4px 14px"><div class="lijst">${ideeen.slice(0,6).map(ideeRij).join('')}</div></div>`;
+  if (p.durf) h += `<div class="kaart"><div class="label">Durfladder · jij kiest wanneer</div><div class="lijst">${p.ladder.map((t, n) => `<label class="r"><input type="checkbox" data-ch="trede" data-n="${n}"${t.gedaan ? ' checked' : ''}><span class="wat"><b style="${t.gedaan ? 'color:var(--stil)' : ''}">${esc(t.t)}</b></span></label>`).join('')}</div></div>`;
+  if (p.status === 'actief') {
+    h += `<a class="tekstknop" href="#afronden/${esc(p.id)}" style="align-self:flex-start;display:inline-flex;align-items:center">Project afronden</a>`;
+    h += onder(`<a class="knop amber groot" href="#speel/${encodeURIComponent(p.disc || 'vrij')}/${esc(p.id)}">Oefen voor ${esc(p.naam)}</a>`);
+  }
+  return h;
+};
+SCHERM.onderdeel = (pid, oid) => {
+  const p = vindProject(pid), o = vindDeel(p, oid); if (!o) return niets('Dit onderdeel bestaat niet meer.');
+  const sj = sjab(p), g = p.groepen.find(x => x.id === o.groep);
+  let h = terugLink(p.naam + (g ? ' · ' + g.naam : ''));
+  h += veldLabel('deel-naam', sj.onderdeel) + `<input class="veld" id="deel-naam" data-in="deel-naam" value="${esc(o.naam)}" style="font-family:var(--titel);font-weight:700;font-size:22px;margin-top:-6px">`;
+  h += `<div class="drie">${p.statussen.map((s, n) => `<button type="button" class="chip" style="justify-content:center;border-radius:12px;min-height:44px${n === 0 && o.status !== 0 ? ';background:none;border:1.5px dashed var(--dof)' : ''}" data-doe="deelstatus" data-n="${n}" aria-pressed="${o.status === n}">${esc(s)}</button>`).join('')}</div>`;
+  const ses = (o.sessies || []).filter(x => x.uitkomst !== 'niet'), lu = ses[ses.length - 1];
+  h += `<div class="stil klein">${ses.length ? 'Gespeeld in ' + ses.length + (ses.length === 1 ? ' sessie' : ' sessies') + ' · laatst ' + esc(rel(lu.ts)) + ', ' + esc(lu.uitkomst) : 'Nog niet gespeeld in een sessie'}</div>`;
+  if (p.duur) h += `<div class="rij"><label for="deel-duur" class="stil" style="flex:1">Duur</label><input class="veld" id="deel-duur" type="number" inputmode="numeric" min="0" data-in="deel-duur" value="${o.duur ?? ''}" style="width:90px"><span class="stil">min</span></div>`;
+  h += `<div class="kaart" style="gap:0"><div class="label" style="padding:2px 0 6px">Links</div><div class="lijst">` + o.links.map((l, n) => `<div class="r"><span style="color:var(--stil)">${ICOON.link}</span><a class="wat" href="${esc(l.url)}" target="_blank" rel="noopener" style="text-decoration:none;min-height:44px;justify-content:center"><b style="font-size:15px">${esc(l.naam)}</b></a><button type="button" class="icoonknop" data-doe="linkweg" data-n="${n}" aria-label="Link ${esc(l.naam)} weghalen">✕</button></div>`).join('') + `</div>
+    <div style="display:flex;flex-direction:column;gap:8px;padding-top:8px"><input class="veld" id="link-naam" placeholder="Naam, bv. Partituur bas" aria-label="Naam van de link"><div class="rij"><input class="veld" id="link-url" type="url" inputmode="url" placeholder="Plak de Dropbox-link" aria-label="Adres van de link"><button type="button" class="knop mini" data-doe="linkerbij">Voeg toe</button></div></div></div>`;
+  const opn = S.ideeen.filter(i => i.oid === o.id && i.status !== 'los');
+  h += `<div class="kaart" style="gap:0"><div class="label" style="padding:2px 0 6px">Opnames en ideeën</div><div class="lijst">${opn.map(ideeRij).join('')}</div><button type="button" class="tekstknop" style="align-self:flex-start;padding:0" data-doe="vang" data-pid="${esc(p.id)}" data-oid="${esc(o.id)}">+ Neem iets op bij dit ${esc(sj.onderdeel)}</button></div>`;
+  h += veldLabel('deel-noot', 'Notitie') + `<textarea class="veld" id="deel-noot" rows="2" data-in="deel-noot" placeholder="bv. overgang naar de brug hapert">${esc(o.noot)}</textarea>`;
+  if (p.groepen.length) h += veldLabel('deel-groep', 'Verplaats naar') + `<select class="veld" id="deel-groep" data-ch="deel-groep"><option value="">Zonder groep</option>${p.groepen.map(x => `<option value="${esc(x.id)}"${x.id === o.groep ? ' selected' : ''}>${esc(x.naam)}</option>`).join('')}</select>`;
+  h += onder(`<a class="knop amber groot" href="#speel/${encodeURIComponent(p.disc || 'vrij')}/${esc(p.id)}/${esc(o.id)}">Nu oefenen</a><button type="button" class="knop rand groot" data-doe="deelweg">Schrap</button>`);
+  return h;
+};
+SCHERM.instellen = (pid) => {
+  const p = vindProject(pid); if (!p) return niets('Dit project bestaat niet meer.');
+  let h = terugLink(p.naam) + `<h1>Instellen</h1>`;
+  h += veldLabel('p-naam', 'Naam') + `<input class="veld" id="p-naam" data-in="p-naam" value="${esc(p.naam)}">`;
+  h += `<div class="label">Discipline · voor Ik speel</div><div class="chips">${S.disciplines.map(d => `<button type="button" class="chip" data-doe="pdisc" data-id="${esc(d.id)}" aria-pressed="${p.disc === d.id}">${esc(d.naam)}</button>`).join('')}</div>`;
+  h += `<div class="kaart"><div class="label">Statussen · van laag naar hoog</div>${p.statussen.map((s, n) => `<div class="rij"><input class="veld" data-in="status" data-n="${n}" value="${esc(s)}" aria-label="Status ${n + 1}"><button type="button" class="icoonknop" data-doe="statusweg" data-n="${n}" aria-label="Status ${esc(s)} schrappen">✕</button></div>`).join('')}<button type="button" class="tekstknop" style="align-self:flex-start;padding:0" data-doe="statuserbij">+ Status toevoegen</button></div>`;
+  h += `<div class="kaart"><div class="label">Groepen</div>${p.groepen.map(g => `<div class="rij"><input class="veld" data-in="groep-naam" data-id="${esc(g.id)}" value="${esc(g.naam)}" aria-label="Naam van de groep"><button type="button" class="icoonknop" data-doe="groepweg" data-id="${esc(g.id)}" aria-label="Groep ${esc(g.naam)} schrappen">✕</button></div>`).join('') || '<span class="stil fijn">Geen groepen. Dat mag.</span>'}<button type="button" class="tekstknop" style="align-self:flex-start;padding:0" data-doe="groeperbij">+ Groep toevoegen</button></div>`;
+  const mps = p.mijlpalen.slice().sort((a,b) => a.datum < b.datum ? -1 : 1);
+  h += `<div class="kaart" style="gap:0"><div class="label" style="padding-bottom:6px">Mijlpalen</div>${mps.map(m => `<div class="mijlpaal">
+      <input class="veld" type="date" data-ch="mp-datum" data-id="${esc(m.id)}" value="${esc(m.datum)}" aria-label="Datum">
+      <div class="rij"><button type="button" class="knop rand mini" data-doe="mpweek" data-id="${esc(m.id)}">+1 week</button><button type="button" class="icoonknop" data-doe="mpweg" data-id="${esc(m.id)}" aria-label="Mijlpaal schrappen">✕</button></div>
+      <div class="velden" style="grid-template-columns:1fr"><input class="veld" data-in="mp-wat" data-id="${esc(m.id)}" value="${esc(m.wat)}" placeholder="Wat? bv. Try-out · mag leeg" aria-label="Wat"></div>
+      <div class="velden"><select class="veld" data-ch="mp-groep" data-id="${esc(m.id)}" aria-label="Voor welk deel"><option value="">Alles</option>${p.groepen.map(g => `<option value="${esc(g.id)}"${g.id === m.groep ? ' selected' : ''}>${esc(g.naam)}</option>`).join('')}</select>
+      <select class="veld" data-ch="mp-min" data-id="${esc(m.id)}" aria-label="Tot welke status"><option value="">Geen status</option>${p.statussen.map((s, n) => `<option value="${n}"${m.min === n ? ' selected' : ''}>minstens ${esc(s)}</option>`).join('')}</select></div></div>`).join('')}
+    <button type="button" class="tekstknop" style="align-self:flex-start;padding:8px 0 0" data-doe="mperbij">+ Mijlpaal: datum, wat, en tot welke status</button>
+    <div class="stil klein" style="padding-top:6px">Een mijlpaal zonder status is een gebeurtenis, zoals een try-out of een concert. Met een status telt de app hoeveel er nog te gaan zijn. Verschuiven mag altijd.</div></div>`;
+  h += `<label class="kaart" style="flex-direction:row;align-items:center;min-height:52px"><span style="flex:1">Duur per ${esc(sjab(p).onderdeel)} meetellen</span><input type="checkbox" data-ch="p-duur"${p.duur ? ' checked' : ''}></label>`;
+  h += `<label class="kaart" style="flex-direction:row;align-items:center;min-height:52px"><span style="flex:1">Durfladder</span><input type="checkbox" data-ch="p-durf"${p.durf ? ' checked' : ''}></label>`;
+  if (p.status === 'actief') h += `<a class="tekstknop" href="#afronden/${esc(p.id)}" style="align-self:flex-start;display:inline-flex;align-items:center">Project afronden</a>`;
+  return h;
+};
+SCHERM.afronden = (pid) => {
+  const p = vindProject(pid); if (!p) return niets('Dit project bestaat niet meer.');
+  if (p.status !== 'actief') { vervang('#project/' + p.id); return null; }
+  let h = terugLink(p.naam) + `<h1>${esc(p.naam)} afronden</h1>`;
+  h += `<p class="stil fijn" style="margin:0;line-height:1.45">${p.onderdelen.length} ${esc(p.onderdelen.length === 1 ? sjab(p).onderdeel : sjab(p).meer)}${p.mijlpalen.length ? ', ' + p.mijlpalen.length + (p.mijlpalen.length === 1 ? ' mijlpaal' : ' mijlpalen') : ''}. Het project gaat naar Afgewerkt. Niets wordt gewist.</p>`;
+  h += veldLabel('terugblik', 'Terugblik in één zin · mag leeg') + `<textarea class="veld" id="terugblik" rows="3" data-in="terugblik" placeholder="Wat neem je mee uit dit project?">${esc(afrTekst)}</textarea>`;
+  h += `<div class="opname klein" id="opname-vak" data-ctx="afronden">${opnameInhoud('afronden')}</div>`;
+  h += `<div class="kaart fijn" style="color:var(--stil2);line-height:1.45;gap:6px"><b style="color:var(--inkt)">Wat er gebeurt</b><span>Onderdelen, statussen en links blijven bewaard bij Afgewerkt.</span><span>Ideeën die eraan hingen, blijven in de bak.</span><span>Later opnieuw? Gebruik het project als vertrekpunt voor een nieuw project.</span></div>`;
+  h += onder(`<button type="button" class="knop amber groot" data-doe="afronden" data-id="${esc(p.id)}">Afronden</button>`);
+  return h;
+};
+SCHERM.instellingen = () => {
+  const nMedia = S.ideeen.filter(i => i.media).length + S.projecten.filter(p => p.terugblikMedia).length;
+  let h = terugLink('Atelier') + `<h1>Instellingen</h1>`;
+  h += `<div class="kaart"><div class="label">Jouw disciplines · de tegels bij Ik speel</div><div class="chips">${S.disciplines.map(d => `<span class="chip"><span class="stip" style="width:8px;height:8px;background:${kleur(d.soort)}"></span>${esc(d.naam)}<button type="button" class="icoonknop" style="width:32px;height:32px;margin-right:-8px" data-doe="discweg" data-id="${esc(d.id)}" aria-label="${esc(d.naam)} weghalen">✕</button></span>`).join('')}</div>
+    <div class="rij"><input class="veld" id="disc-naam" placeholder="bv. Piano" aria-label="Nieuwe discipline"><select class="veld" id="disc-soort" style="width:auto" aria-label="Soort">${Object.entries(SOORT).map(([k,v]) => `<option value="${k}">${v.naam}</option>`).join('')}</select></div>
+    <button type="button" class="knop rand mini" style="align-self:flex-start" data-doe="discerbij">+ Toevoegen</button></div>`;
+  h += `<div class="kaart"><div class="label">Uit de bak</div><div class="drie">${[['elk','Elke keer'],['dag','1 per dag'],['uit','Uit']].map(([k,n]) => `<button type="button" class="chip" style="justify-content:center;border-radius:12px;min-height:44px" data-doe="bakstand" data-w="${k}" aria-pressed="${S.uitDeBak === k}">${n}</button>`).join('')}</div></div>`;
+  h += `<div class="kaart" style="gap:0"><div class="label" style="padding-bottom:4px">Back-up · alles staat alleen op deze telefoon</div>
+    <div class="rij" style="min-height:56px"><span style="flex:1;display:flex;flex-direction:column"><span>Tekst en projecten</span><span class="stil klein">klein bestand · ${S.laatsteBackup ? 'laatst ' + esc(datumKort(dagSleutel(S.laatsteBackup))) : 'nog nooit'}</span></span><button type="button" class="knop mini" data-doe="backup">Back-up</button></div>
+    <div class="rij" style="min-height:56px;border-top:1px solid var(--lijn2)"><span style="flex:1;display:flex;flex-direction:column"><span>Opnames en foto's</span><span class="stil klein">groter bestand · ${nMedia} ${nMedia === 1 ? 'stuk' : 'stuks'} · ${S.laatsteMediaBackup ? 'laatst ' + esc(datumKort(dagSleutel(S.laatsteMediaBackup))) : 'nog nooit'}</span></span><button type="button" class="knop rand mini" data-doe="backupmedia">Back-up</button></div>
+    <button type="button" class="tekstknop" style="align-self:flex-start;padding:0" data-doe="terugzetten">Back-up terugzetten</button>
+    <div class="stil klein" style="padding-top:4px">Zet de bestanden in je Dropbox of Drive. Terugzetten kan per deel.</div></div>`;
+  h += `<label class="kaart" style="flex-direction:row;align-items:center;min-height:52px"><span style="flex:1">Scherm aan houden tijdens een sessie</span><input type="checkbox" data-ch="schermaan"${S.schermAan ? ' checked' : ''}></label>`;
+  h += `<p class="stil klein" style="margin:0">Atelier versie 1 · gegevens onder ‘${OPSLAG}’ in Chrome</p>`;
+  return h;
+};
+
+function teken(){
+  const [r, a, b, c] = route();
+  const naam = SCHERM[r] ? r : 'start';
+  const html = SCHERM[naam](a, b, c);
+  if (html === null) return;
+  $('#app').innerHTML = html;
+  if (location.hash !== laatstGetekend) { window.scrollTo(0, 0); laatstGetekend = location.hash; }
+  vorigeRoute = naam;
+  vulFotos();
+}
+
+/* ---------- acties ---------- */
+function hierProject(){ return vindProject(route()[1]); }
+function hierDeel(){ return vindDeel(vindProject(route()[1]), route()[2]); }
+function hierIdee(){ return vindIdee(route()[1]); }
+function download(obj, naam){
+  const blob = new Blob([JSON.stringify(obj)], { type:'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = naam;
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
+function naarDataUrl(blob){ return new Promise((ok, nok) => { const r = new FileReader(); r.onload = () => ok(r.result); r.onerror = () => nok(r.error); r.readAsDataURL(blob); }); }
+
+const DOE = {
+  terug: () => terug(),
+  vang: d => {
+    stopSpelen();
+    vc = nieuweVangst(d.pid, d.oid);
+    ga(d.pid ? '#vang/' + d.pid + '/' + (d.oid || '') : '#vang');
+    startOpname('vang');
+  },
+  neemop: d => { stopSpelen(); startOpname(d.ctx); },
+  stopop: () => { if (rec.ctx === 'sessie') rec.naStop = () => bewaarSessieOpname(); stopOpname(); },
+  speel: d => speel(d.id),
+  modus: d => { if (!vc) return; if (rec.ctx === 'vang' && rec.staat === 'neemt') stopOpname(); vc.modus = d.m; teken(); },
+  vangsoort: d => { vc.soort = vc.soort === d.w ? null : d.w; teken(); },
+  vangproject: d => { vc.pid = d.id || null; vc.oid = null; teken(); },
+  kiesfoto: () => $('#foto-in').click(),
+  bewaar: async () => {
+    if (rec.ctx === 'vang' && rec.staat === 'neemt') { rec.naStop = async () => { if (await bewaarVangst()) terug(); }; stopOpname(); return; }
+    if (await bewaarVangst()) terug();
+  },
+  dicteer: d => {
+    if (luistert) { stopLuisteren(); return; }
+    startLuisteren(d.veld, v => {
+      if (d.veld === 'vang-tekst' && vc) vc.tekst = v;
+      if (d.veld === 'idee-tekst') { const i = hierIdee(); if (i) { i.tekst = v; bewaar(); } }
+    });
+  },
+  filter: d => vervang('#bak' + (d.w === 'alles' ? '' : '/' + d.w)),
+  bakverder: d => { const i = vindIdee(d.id); if (!i) return; i.verder = true; i.gezien = nu(); bakAfgehandeld(); bewaar(); ga('#idee/' + i.id); },
+  bakrust: () => { bakRust = true; teken(); },
+  ideerust: () => { ideeRust = true; teken(); },
+  annuleerrust: () => { bakRust = false; ideeRust = false; teken(); },
+  rust: d => {
+    const i = vindIdee(d.id); if (!i) return;
+    const dagen = +d.dagen; i.terugOp = nu() + dagen * DAG; i.gezien = nu(); i.verder = false;
+    if (d.waar === 'bak') bakAfgehandeld();
+    ideeRust = false; bewaar();
+    toast(dagen <= 7 ? 'Komt over een week terug.' : dagen <= 30 ? 'Komt over een maand terug.' : 'Komt over drie maanden terug.');
+    teken();
+  },
+  baklos: d => { const i = vindIdee(d.id); if (!i) return; const t = momentopname(); i.status = 'los'; i.verder = false; bakAfgehandeld(); bewaar(); toast('Losgelaten.', t); teken(); },
+  ideelos: d => { const i = vindIdee(d.id); if (!i) return; const t = momentopname(); i.status = 'los'; i.verder = false; bewaar(); toast('Losgelaten.', t); terug(); },
+  ideeverder: d => { const i = vindIdee(d.id); if (!i) return; i.verder = !i.verder; if (i.verder) i.terugOp = null; bewaar(); teken(); },
+  ideesoort: d => { const i = hierIdee(); if (!i) return; i.soort = i.soort === d.w ? null : d.w; bewaar(); teken(); },
+  ideeterug: d => { const i = vindIdee(d.id); if (!i) return; i.status = 'bak'; i.terugOp = null; bewaar(); toast('Terug in de bak.'); teken(); },
+  ideewis: async d => {
+    const i = vindIdee(d.id); if (!i) return;
+    if (!confirm('Dit idee' + (i.media ? ' en de opname of foto' : '') + ' definitief wissen? Dit kan niet ongedaan worden.')) return;
+    if (i.media) { try { await MEDIA.weg(i.media); } catch(e) {} }
+    S.ideeen = S.ideeen.filter(x => x.id !== i.id); bewaar(); toast('Gewist.'); terug();
+  },
+  kiesdisc: d => { kies.disc = d.id; kies.pid = null; kies.oid = null; kies.alt = 0; teken(); },
+  kiesmin: d => { kies.min = +d.w; teken(); },
+  andersfocus: () => { kies.alt++; teken(); },
+  begin: () => {
+    const f = kies.disc === 'vrij' ? null : huidigeFocus();
+    S.sessie = bouwSessie(kies.disc, kies.min, f);
+    S.laatsteMin = kies.min; if (kies.disc !== 'vrij') S.laatsteDisc = kies.disc;
+    bewaar(); kies = null; houdAan(); vervang('#sessie');
+  },
+  volgende: () => {
+    const s = S.sessie; if (!s) return;
+    if (s.i < s.stappen.length - 1) { s.i++; s.stapStart = nu(); bewaar(); teken(); window.scrollTo(0, 0); } else DOE.stopsessie();
+  },
+  stopsessie: () => {
+    const s = S.sessie; if (!s) return;
+    if (rec.ctx === 'sessie' && rec.staat === 'neemt') { rec.naStop = () => bewaarSessieOpname().then(() => DOE.stopsessie()); stopOpname(); return; }
+    s.klaar = true; s.eind = nu();
+    const fs = focusStap(s);
+    if (fs && fs.oid) { const o = vindDeel(vindProject(fs.pid), fs.oid); s.na.noot = o ? o.noot : ''; }
+    else if (fs && fs.ideeId) { const i = vindIdee(fs.ideeId); s.na.noot = i ? (i.noot || '') : ''; }
+    laatLos(); bewaar(); vervang('#na');
+  },
+  uitkomst: d => { const s = S.sessie; if (!s) return; s.na.uitkomst = s.na.uitkomst === d.w ? null : d.w; if (s.na.uitkomst !== 'vlot') s.na.omhoog = false; bewaar(); teken(); },
+  naklaar: () => {
+    const s = S.sessie; if (!s) return;
+    const fs = focusStap(s), na = s.na;
+    if (fs && fs.oid) {
+      const p = vindProject(fs.pid), o = vindDeel(p, fs.oid);
+      if (o) {
+        if (na.uitkomst) { o.sessies = o.sessies || []; o.sessies.push({ ts:nu(), uitkomst:na.uitkomst }); }
+        if (na.omhoog && na.uitkomst === 'vlot' && o.status < topStatus(p)) o.status++;
+        if (na.noot != null) o.noot = na.noot.trim();
+      }
+    }
+    if (fs && fs.ideeId) { const i = vindIdee(fs.ideeId); if (i) { i.gezien = nu(); if (na.noot != null) i.noot = na.noot.trim(); } }
+    S.sessies.push({ ts:s.start, disc:s.disc, min:s.min, focus: fs ? fs.titel : null, uitkomst:na.uitkomst, goed:(na.goed || '').trim() });
+    if (S.sessies.length > 300) S.sessies = S.sessies.slice(-300);
+    S.sessie = null; bewaar(); vervang('#start'); toast('Sessie bewaard.');
+  },
+  npsjab: d => { np.sjabloon = d.w; np.disc = standaardDisc(d.w); teken(); },
+  npdisc: d => { np.disc = d.id; teken(); },
+  maakproject: () => {
+    if (!np.naam.trim()) { toast('Geef je project eerst een naam.'); const v = $('#np-naam'); if (v) v.focus(); return; }
+    const p = maakProject(np); S.projecten.unshift(p); bewaar(); np = null;
+    vervang('#project/' + p.id); toast('Project gemaakt.');
+  },
+  groep: d => { groepOpen.has(d.id) ? groepOpen.delete(d.id) : groepOpen.add(d.id); teken(); },
+  deelerbij: () => {
+    const p = hierProject(), v = $('#nieuw-deel'); if (!p || !v) return;
+    const naam = v.value.trim(); if (!naam) { v.focus(); return; }
+    const g = p.groepen[p.groepen.length - 1];
+    p.onderdelen.push(nieuwDeel(naam, g ? g.id : null)); bewaar(); teken();
+    const n = $('#nieuw-deel'); if (n) n.focus();
+  },
+  deelstatus: d => { const o = hierDeel(); if (!o) return; o.status = +d.n; bewaar(); teken(); },
+  linkerbij: () => {
+    const o = hierDeel(); if (!o) return;
+    let url = ($('#link-url').value || '').trim(); const naam = ($('#link-naam').value || '').trim();
+    if (!url) { toast('Plak eerst een link.'); $('#link-url').focus(); return; }
+    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    o.links.push({ naam: naam || url.replace(/^https?:\/\/(www\.)?/i, '').slice(0, 40), url }); bewaar(); teken();
+  },
+  linkweg: d => { const o = hierDeel(); if (!o) return; const t = momentopname(); o.links.splice(+d.n, 1); bewaar(); toast('Link weggehaald.', t); teken(); },
+  deelweg: () => {
+    const p = hierProject(), o = hierDeel(); if (!o) return;
+    const t = momentopname(); p.onderdelen = p.onderdelen.filter(x => x.id !== o.id);
+    S.ideeen.forEach(i => { if (i.oid === o.id) i.oid = null; });
+    bewaar(); toast(o.naam + ' geschrapt.', t); terug();
+  },
+  pdisc: d => { const p = hierProject(); if (!p) return; p.disc = d.id; bewaar(); teken(); },
+  statuserbij: () => { const p = hierProject(); if (!p) return; p.statussen.push('nieuwe status'); bewaar(); teken(); const l = document.querySelectorAll('[data-in="status"]'); if (l.length) { l[l.length-1].focus(); l[l.length-1].select(); } },
+  statusweg: d => {
+    const p = hierProject(); if (!p) return; const n = +d.n;
+    if (p.statussen.length <= 2) { toast('Een project heeft minstens twee statussen.'); return; }
+    const t = momentopname();
+    p.statussen.splice(n, 1);
+    const pas = v => v > n ? v - 1 : v === n ? Math.max(0, n - 1) : v;
+    p.onderdelen.forEach(o => { o.status = Math.min(pas(o.status), topStatus(p)); });
+    p.mijlpalen.forEach(m => { if (m.min != null) m.min = Math.min(pas(m.min), topStatus(p)); });
+    bewaar(); toast('Status geschrapt.', t); teken();
+  },
+  groeperbij: () => { const p = hierProject(); if (!p) return; p.groepen.push({ id:nieuwId(), naam:sjab(p).groep + ' ' + (p.groepen.length + 1) }); bewaar(); teken(); },
+  groepweg: d => {
+    const p = hierProject(); if (!p) return; const t = momentopname();
+    p.groepen = p.groepen.filter(g => g.id !== d.id);
+    p.onderdelen.forEach(o => { if (o.groep === d.id) o.groep = null; });
+    p.mijlpalen.forEach(m => { if (m.groep === d.id) m.groep = null; });
+    bewaar(); toast('Groep geschrapt. De onderdelen blijven.', t); teken();
+  },
+  mperbij: () => { const p = hierProject(); if (!p) return; p.mijlpalen.push({ id:nieuwId(), datum:plusDagen(dagSleutel(), 14), wat:'', groep:null, min:topStatus(p) }); bewaar(); teken(); },
+  mpweek: d => { const p = hierProject(), m = p && p.mijlpalen.find(x => x.id === d.id); if (!m) return; m.datum = plusDagen(m.datum, 7); bewaar(); teken(); },
+  mpweg: d => { const p = hierProject(); if (!p) return; const t = momentopname(); p.mijlpalen = p.mijlpalen.filter(x => x.id !== d.id); bewaar(); toast('Mijlpaal geschrapt.', t); teken(); },
+  afronden: async d => {
+    const p = vindProject(d.id); if (!p || p.status !== 'actief') return;
+    if (rec.ctx === 'afronden' && rec.staat === 'neemt') { rec.naStop = () => DOE.afronden(d); stopOpname(); return; }
+    const t = momentopname();
+    if (rec.ctx === 'afronden' && rec.blob) {
+      try { const mid = nieuwId(); await MEDIA.put({ id:mid, blob:rec.blob, type:rec.blob.type, gemaakt:nu() }); p.terugblikMedia = mid; } catch(e) { toast('De ingesproken terugblik kon niet bewaard worden.'); }
+    }
+    resetOpname();
+    p.status = 'af'; p.afgerond = nu(); p.terugblik = afrTekst.trim(); afrTekst = '';
+    bewaar(); vervang('#projecten'); toast(p.naam + ' staat nu bij Afgewerkt.', t);
+  },
+  heractiveer: d => { const p = vindProject(d.id); if (!p) return; p.status = 'actief'; p.afgerond = null; bewaar(); toast('Weer actief.'); teken(); },
+  vertrekpunt: d => {
+    const b = vindProject(d.id); if (!b) return;
+    const kaart = {}; const groepen = b.groepen.map(g => { const id = nieuwId(); kaart[g.id] = id; return { id, naam:g.naam }; });
+    const p = Object.assign(JSON.parse(JSON.stringify(b)), {
+      id:nieuwId(), naam:b.naam + ' (nieuw)', groepen, mijlpalen:[], status:'actief', gemaakt:nu(), afgerond:null, terugblik:'', terugblikMedia:null,
+      onderdelen:b.onderdelen.map(o => Object.assign(nieuwDeel(o.naam, kaart[o.groep] || null), { links:o.links.map(l => Object.assign({}, l)), duur:o.duur })),
+      ladder:b.ladder.map(x => ({ t:x.t, gedaan:false }))
+    });
+    S.projecten.unshift(p); bewaar(); vervang('#instellen/' + p.id); toast('Nieuw project gemaakt, alles staat terug op de eerste status.');
+  },
+  discerbij: () => {
+    const v = $('#disc-naam'), naam = v.value.trim(); if (!naam) { v.focus(); return; }
+    let id = naam.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'disc';
+    while (vindDisc(id) || id === 'vrij') id += '-2';
+    S.disciplines.push({ id, naam, soort:$('#disc-soort').value }); bewaar(); teken();
+  },
+  discweg: d => {
+    const gebruikt = actieveProjecten().find(p => p.disc === d.id);
+    if (gebruikt) { toast('In gebruik bij ' + gebruikt.naam + '. Kies daar eerst een andere discipline.'); return; }
+    const oud = JSON.stringify(S.disciplines);
+    S.disciplines = S.disciplines.filter(x => x.id !== d.id); bewaar();
+    toast('Weggehaald.', () => { S.disciplines = JSON.parse(oud); }); teken();
+  },
+  bakstand: d => { S.uitDeBak = d.w; bakDezeKeer = null; bewaar(); teken(); },
+  backup: () => {
+    download({ app:'atelier', deel:'tekst', versie:1, gemaakt:nu(), data:Object.assign({}, S, { sessie:null }) }, 'atelier-tekst-' + dagSleutel() + '.json');
+    S.laatsteBackup = nu(); bewaar(); toast('Back-up gemaakt. Je vindt hem bij je downloads.'); teken();
+  },
+  backupmedia: async () => {
+    let alle;
+    try { alle = await MEDIA.alle(); } catch(e) { toast('De opnames kunnen nu niet gelezen worden.'); return; }
+    if (!alle.length) { toast('Nog geen opnames of foto\'s.'); return; }
+    toast('Back-up wordt gemaakt…');
+    const items = [];
+    for (const r of alle) items.push({ id:r.id, type:r.type, gemaakt:r.gemaakt, data:await naarDataUrl(r.blob) });
+    download({ app:'atelier', deel:'media', versie:1, gemaakt:nu(), items }, 'atelier-opnames-' + dagSleutel() + '.json');
+    S.laatsteMediaBackup = nu(); bewaar(); toast('Back-up van ' + items.length + ' opnames en foto\'s gemaakt.'); teken();
+  },
+  terugzetten: () => $('#bestand').click()
+};
+
+/* ---------- invoer zonder hertekenen ---------- */
+const IN = {
+  'vang-tekst': v => { if (vc) vc.tekst = v; },
+  'idee-tekst': v => { const i = hierIdee(); if (i) { i.tekst = v; bewaar(); } },
+  'idee-noot': v => { const i = hierIdee(); if (i) { i.noot = v; bewaar(); } },
+  'na-goed': v => { if (S.sessie) { S.sessie.na.goed = v; bewaar(); } },
+  'na-noot': v => { if (S.sessie) { S.sessie.na.noot = v; bewaar(); } },
+  'np-naam': v => { if (np) np.naam = v; },
+  'np-lijst': v => { if (np) np.lijst = v; },
+  'deel-naam': v => { const o = hierDeel(); if (o && v.trim()) { o.naam = v.trim(); bewaar(); } },
+  'deel-noot': v => { const o = hierDeel(); if (o) { o.noot = v; bewaar(); } },
+  'deel-duur': v => { const o = hierDeel(); if (o) { const n = parseInt(v, 10); o.duur = n > 0 ? n : null; bewaar(); } },
+  'p-naam': v => { const p = hierProject(); if (p && v.trim()) { p.naam = v.trim(); bewaar(); } },
+  'status': (v, el) => { const p = hierProject(); if (p && v.trim()) { p.statussen[+el.dataset.n] = v.trim(); bewaar(); } },
+  'groep-naam': (v, el) => { const p = hierProject(), g = p && p.groepen.find(x => x.id === el.dataset.id); if (g && v.trim()) { g.naam = v.trim(); bewaar(); } },
+  'mp-wat': (v, el) => { const p = hierProject(), m = p && p.mijlpalen.find(x => x.id === el.dataset.id); if (m) { m.wat = v.trim(); bewaar(); } },
+  'terugblik': v => { afrTekst = v; }
+};
+/* ---------- keuzes die het scherm hertekenen ---------- */
+const CH = {
+  'idee-project': v => { const i = hierIdee(); if (i) { i.pid = v || null; i.oid = null; } },
+  'idee-deel': v => { const i = hierIdee(); if (i) i.oid = v || null; },
+  'np-durf': (v, el) => { if (np) np.durf = el.checked; },
+  'omhoog': (v, el) => { if (S.sessie) S.sessie.na.omhoog = el.checked; },
+  'deel-groep': v => { const o = hierDeel(); if (o) o.groep = v || null; },
+  'mp-datum': (v, el) => { const p = hierProject(), m = p && p.mijlpalen.find(x => x.id === el.dataset.id); if (m && v) m.datum = v; },
+  'mp-groep': (v, el) => { const p = hierProject(), m = p && p.mijlpalen.find(x => x.id === el.dataset.id); if (m) m.groep = v || null; },
+  'mp-min': (v, el) => { const p = hierProject(), m = p && p.mijlpalen.find(x => x.id === el.dataset.id); if (m) m.min = v === '' ? null : +v; },
+  'p-duur': (v, el) => { const p = hierProject(); if (p) p.duur = el.checked; },
+  'p-durf': (v, el) => { const p = hierProject(); if (p) p.durf = el.checked; },
+  'trede': (v, el) => { const p = hierProject(); if (p && p.ladder[+el.dataset.n]) p.ladder[+el.dataset.n].gedaan = el.checked; },
+  'schermaan': (v, el) => { S.schermAan = el.checked; if (!el.checked) laatLos(); }
+};
+
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-doe]'); if (!el) return;
+  const f = DOE[el.dataset.doe]; if (f) { e.preventDefault(); f(el.dataset, el); }
+});
+document.addEventListener('input', e => { const t = e.target, k = t.dataset && t.dataset.in; if (k && IN[k]) IN[k](t.value, t); });
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  if (e.target.id === 'nieuw-deel') { e.preventDefault(); DOE.deelerbij(); }
+  if (e.target.id === 'disc-naam') { e.preventDefault(); DOE.discerbij(); }
+  if (e.target.id === 'link-url') { e.preventDefault(); DOE.linkerbij(); }
+});
+document.addEventListener('change', async e => {
+  const t = e.target;
+  if (t.id === 'foto-in' && t.files && t.files[0]) {
+    const blob = await verklein(t.files[0]); t.value = '';
+    if (!vc) vc = nieuweVangst();
+    if (vc.fotoUrl) URL.revokeObjectURL(vc.fotoUrl);
+    vc.foto = blob; vc.fotoUrl = URL.createObjectURL(blob); vc.modus = 'foto';
+    if (route()[0] === 'vang') teken(); else ga('#vang');
+    return;
+  }
+  if (t.id === 'bestand' && t.files && t.files[0]) {
+    const bestand = t.files[0]; t.value = '';
+    let j; try { j = JSON.parse(await bestand.text()); } catch(err) { toast('Dit bestand is geen back-up van het Atelier.'); return; }
+    if (!j || j.app !== 'atelier') { toast('Dit bestand is geen back-up van het Atelier.'); return; }
+    if (j.deel === 'tekst' && j.data && Array.isArray(j.data.ideeen)) {
+      if (!confirm('Je huidige ideeën en projecten vervangen door deze back-up?')) return;
+      S = Object.assign(startToestand(), j.data, { sessie:null }); bewaar(); bakDezeKeer = null;
+      toast('Teruggezet: ' + S.ideeen.length + ' ideeën en ' + S.projecten.length + ' projecten.'); vervang('#start'); return;
+    }
+    if (j.deel === 'media' && Array.isArray(j.items)) {
+      let n = 0;
+      for (const it of j.items) { try { const blob = await (await fetch(it.data)).blob(); await MEDIA.put({ id:it.id, blob, type:it.type || blob.type, gemaakt:it.gemaakt || nu() }); n++; } catch(err) {} }
+      toast(n + ' opnames en foto\'s teruggezet.'); teken(); return;
+    }
+    toast('Dit bestand is geen back-up van het Atelier.'); return;
+  }
+  const k = t.dataset && t.dataset.ch; if (!k || !CH[k]) return;
+  CH[k](t.value, t); bewaar(); teken();
+});
+
+/* ---------- starten ---------- */
+laad();
+try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch(e) {}
+if (S.sessie && !/^#(sessie|na)$/.test(location.hash)) history.replaceState(null, '', S.sessie.klaar ? '#na' : '#sessie');
+if (!location.hash) history.replaceState(null, '', '#start');
+stapel = [location.hash];
+teken();
+houdAan();
+setInterval(() => { if (rec.staat === 'neemt') { const t = $('#opname-tijd'); if (t) t.textContent = sec((nu() - rec.start) / 1000); } }, 500);
+setInterval(tikSessie, 10000);
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) return;
+  houdAan();
+  const r = route()[0];
+  if (r === 'sessie') tikSessie();
+  if (r === 'start') teken();
+});
+</script>
+</body>
+</html>
